@@ -3,11 +3,11 @@
 // Waveguide dimensions
 WGw = 22.86; // Width of waveguide
 WGh = 10.16; // Height of waveguide
-WGl = 20;    // Length of waveguide
+WGl = 69;    // Length of waveguide
 
 // Technological parameters
-marginXY = 0.1;      // XY dimension margin
-marginZ = 0.05;      // Z dimension margin
+marginXY = 0;      // XY dimension margin
+marginZ = 0;      // Z dimension margin
 
 CCdim = 1;           // Corner cut definition
 
