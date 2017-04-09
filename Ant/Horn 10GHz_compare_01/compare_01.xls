@@ -1,0 +1,15 @@
+ run ID                	 flare_length           	 energy/dB              	 cpu/min                	 meshcells              	 model-file             	
+ run #1                	 228                	-31.42201               	 0                	 0                	run000001\Horn 10GHz.cst
+ run #2                	 108                	-33.13326               	 0                	 0                	run000002\Horn 10GHz.cst
+ 
+ Fixed parameters (identical in all compared files) 
+ 
+ aperture_height        	 79                	
+ aperture_width         	 110                	
+ c0                	 CLight*1E-06           	
+ frequency_centre       	 10                	
+ metal_thickness        	 wavelength_centre/200  	
+ waveguide_height       	 10.16                	
+ waveguide_length       	 51                	
+ waveguide_width        	 22.86                	
+ wavelength_centre      	 c0/frequency_centre    	

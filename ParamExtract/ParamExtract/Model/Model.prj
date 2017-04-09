@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+Hackintosh
+[Mesh Cells]
+11,270
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:paramextract.cst?5fd2fec9f95556b5ca42d43d4b4ec7e8?9917:numberofparameters=4:port=1>mode=1>zre=0>zim=0?port=2>mode=1>zre=0>zim=0:::er?hwg?lwg?wwg
+[Comment]

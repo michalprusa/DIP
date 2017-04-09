@@ -1,0 +1,164 @@
+Build version: 2016.0 Release from 2016-01-22 (change 414946)
+
+Starting adaptive port meshing.
+
+--------------------------------------------------------------------------------
+Mode calculation for port 1:
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+  -------------------------------- F-Calc 10 ---------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      TE          499           9.92e-006     ---           6.55
+  ----------------------------------------------------------------------------
+
+Pass 1 successfully completed. 
+Adaptive port meshing finished. 
+
+--------------------------------------------------------------------------------
+
+Solver started at: 02:44 PM Sunday, 09. April 2017
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2016.0 Release from 2016-01-22 (change 414946)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at port 1 (mode 1) 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 4
+      Number of calculation domains used: 4
+
+   PBA fill limit: 97.32% (inverse)
+
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: magnetic
+  XZsymmetry: electric
+  XYsymmetry: none
+
+  Xmin: expanded open
+  Xmax: expanded open, 4 Layer, depth 8.61707 mm
+
+  Ymin: expanded open
+  Ymax: expanded open, 4 Layer, depth 8.61707 mm
+
+  Zmin: expanded open, 4 Layer, depth 9.99308 mm
+  Zmax: expanded open, 4 Layer, depth 8.62123 mm
+
+  PML-Type: Convolution PML
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:         8
+  Fmax:         12
+  Nfsteps(lin): 1001
+
+--------------------------------------------------------------------------------
+Waveguide boundaries:
+
+Port: 1
+
+  -------------------------------- F-Calc 10 ---------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      TE          499           9.92e-006     ---           6.55
+  ----------------------------------------------------------------------------
+
+Field update statistics:
+
+  Number of components in total: 	1618790
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  Matrices calc.      432280                        13344396     13020428     
+  Solver run total    89324                         13370824     13076888     
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	HACKINTOSH-PC 
+
+     Number of CPU threads:             4
+     Hardware info:                  	Hardware acceleration not activated
+
+  Number of mesh cells:             	262656
+  Excitation duration:              	1.77727437e+000 ns 
+  Calculation time for excitation:  	6      	s
+  Number of calculated pulse widths:	1.59614 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	3686   
+  Maximum number of time steps:     	46186  
+  Time step width:
+     without subcycles:             	7.69606762e-004 ns
+     used:                          	7.69606762e-004 ns
+
+  Matrix calculation time:          	9      	s
+  Solver setup time:                	1      	s
+  Solver loop time:                 	10     	s
+  Solver post processing time:      	0      	s
+                                    	------------
+  Total solver time:                	20     	s
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	2      	s
+  Total solver time (all cycles):   	20     	s
+                                    	------------
+  Total simulation time:            	22     	s
+
+--------------------------------------------------------------------------------
+Solver finished at: 02:44 PM Sunday, 09. April 2017
+
+
+--------------------------------------------------------------------------------
+Farfield exported to folder: C:\Users\Hackintosh\Documents\DIP\Ant\Horn
+10GHz\Export\Farfield\
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results for Run ID 5
+
+--------------------------------------------------------------------------------

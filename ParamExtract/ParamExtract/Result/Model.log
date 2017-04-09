@@ -1,0 +1,285 @@
+
+Solver started at: 10:18 PM Thursday, 06. April 2017
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2016.0 Release from 2016-01-22 (change 414946)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at port 1 (mode 1) 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Mesh statistics:
+
+   Hexahedral mesh type: FPBA [accuracy enhancement is enabled]
+
+   Parallelization type: domain decomposition
+      Number of parallel working threads: 1
+      Number of calculation domains used: 1
+
+   PBA fill limit: 99.00% (inverse)
+
+
+--------------------------------------------------------------------------------
+Automatically activated electric shielding for port 1, 2.
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: electric
+  Xmax: electric
+
+  Ymin: electric
+  Ymax: electric
+
+  Zmin: electric
+  Zmax: electric
+
+  PML-Type: ---
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:         8
+  Fmax:         12
+  Nfsteps(lin): 1001
+
+--------------------------------------------------------------------------------
+Waveguide boundaries:
+
+Port: 1
+
+  -------------------------------- F-Calc 10 ---------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  1      1      TE          498           4.16e-013     ---           6.54
+  ----------------------------------------------------------------------------
+
+Port: 2
+
+  -------------------------------- F-Calc 10 ---------------------------------
+  Port   Mode   Type        Z-Wave        Z-Wave-Sigma  Z-Line        F-Cutoff
+  2      1      TE          498           4.16e-013     ---           6.54
+  ----------------------------------------------------------------------------
+
+Field update statistics:
+
+  Number of components in total: 	75295
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  CAD preparation     21308                         11306476     11306476     
+  Matrices calc.      52704                         11298796     11253940     
+  Solver run total    31404                         11338896     11260972     
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	HACKINTOSH-PC 
+
+     Number of CPU threads:             4
+     Hardware info:                  	Hardware acceleration not activated
+
+  Number of mesh cells:             	11270
+  Excitation duration:              	1.77727437e+000 ns 
+  Calculation time for excitation:  	0      	s
+  Number of calculated pulse widths:	1.27328 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	770    
+  Maximum number of time steps:     	12094  
+  Time step width:
+     without subcycles:             	2.93891338e-003 ns
+     used:                          	2.93891338e-003 ns
+
+  CAD preparation time:          	0      	s
+  Matrix calculation time:          	4      	s
+  Solver setup time:                	0      	s
+  Solver loop time:                 	0      	s
+  Solver post processing time:      	0      	s
+                                    	------------
+  Total solver time:                	4      	s
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	0      	s
+  Total solver time (all cycles):   	4      	s
+                                    	------------
+  Total simulation time:            	4      	s
+
+--------------------------------------------------------------------------------
+Solver finished at: 10:18 PM Thursday, 06. April 2017
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results for Run ID 1
+
+--------------------------------------------------------------------------------
+
+Solver started at: 10:21 PM Thursday, 06. April 2017
+
+  Module:  Time Domain: S-Parameter (Win 64)
+  Version: 2016.0 Release from 2016-01-22 (change 414946)
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+======================================================================
+ Solver cycle: 1
+======================================================================
+
+Stimulation at port 1 (mode 1) 
+
+
+--------------------------------------------------------------------------------
+Units settings: 
+
+  Dimensions: mm
+  Frequency:  GHz
+  Time:       ns
+
+--------------------------------------------------------------------------------
+Automatically activated electric shielding for port 1, 2.
+
+--------------------------------------------------------------------------------
+Boundary conditions: 
+
+  YZsymmetry: none
+  XZsymmetry: none
+  XYsymmetry: none
+
+  Xmin: electric
+  Xmax: electric
+
+  Ymin: electric
+  Ymax: electric
+
+  Zmin: electric
+  Zmax: electric
+
+  PML-Type: ---
+
+--------------------------------------------------------------------------------
+Frequency settings: 
+
+  Fmin:         8
+  Fmax:         12
+  Nfsteps(lin): 1001
+
+--------------------------------------------------------------------------------
+Waveguide boundaries:
+
+Port: 1
+
+Reloaded mode(s) for port 1.
+
+--------------------------------------------------------------------------------
+Port: 2
+
+Reloaded mode(s) for port 2.
+
+--------------------------------------------------------------------------------
+Field update statistics:
+
+  Number of components in total: 	75295
+
+Subcycling state:      Automatically deactivated
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Steady state energy criterion met, solver finished successfully.
+
+--------------------------------------------------------------------------------
+Frequency domain results normalized to default signal.
+
+--------------------------------------------------------------------------------
+
+  ----------------------------------------------------------------------------
+                      Peak memory used (kB)         Free physical memory (kB) 
+                                                    At begin     Minimum      
+  ----------------------------------------------------------------------------
+  CAD preparation     21308                         11306476     11306476     
+  Matrices calc.      52704                         11298796     11253940     
+  Solver run total    24920                         11252488     11252488     
+  ----------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Solver Statistics:
+
+  Hardware:
+     Computer name:                 	HACKINTOSH-PC 
+
+     Number of CPU threads:             4
+     Hardware info:                  	Hardware acceleration not activated
+
+  Number of mesh cells:             	11270
+  Excitation duration:              	1.77727437e+000 ns 
+  Calculation time for excitation:  	0      	s
+  Number of calculated pulse widths:	1.27328 
+  Steady state accuracy limit:      	-30	dB 
+  Simulated number of time steps:   	770    
+  Maximum number of time steps:     	12094  
+  Time step width:
+     without subcycles:             	2.93891338e-003 ns
+     used:                          	2.93891338e-003 ns
+
+  Reloading matrices:               	0      	s
+  Solver setup time:                	0      	s
+  Solver loop time:                 	0      	s
+  Solver post processing time:      	0      	s
+                                    	------------
+  Total solver time:                	0      	s
+
+--------------------------------------------------------------------------------
+
+  Adaptive port meshing time:       	0      	s
+  Total solver time (all cycles):   	0      	s
+                                    	------------
+  Total simulation time:            	0      	s
+
+--------------------------------------------------------------------------------
+Solver finished at: 10:21 PM Thursday, 06. April 2017
+
+
+--------------------------------------------------------------------------------
+Creating parametric 1D results for Run ID 1
+
+--------------------------------------------------------------------------------

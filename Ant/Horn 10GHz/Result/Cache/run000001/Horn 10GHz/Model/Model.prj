@@ -1,0 +1,19 @@
+[Version]
+2
+[Author]
+zeeviluz
+[Mesh Cells]
+390,336
+[Mesh Type]
+Hexahedral
+[Last Problem Type]
+High Frequency
+[Last Solver Type]
+HF Time Domain
+[Last Solver Type Abb]
+t
+[Results]
+Time Domain: S-Parameter
+[Modeler Unique ID]
+5:horn 10ghz.cst?9a0544c6cb70e2b1063363776abb7ddc?24951:numberofparameters=8:port=1>mode=1>zre=0>zim=0:::aperture_height?aperture_width?flare_length?frequency_centre?metal_thickness?waveguide_height?waveguide_length?waveguide_width
+[Comment]

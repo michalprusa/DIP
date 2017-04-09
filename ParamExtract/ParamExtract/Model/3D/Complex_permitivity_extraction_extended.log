@@ -1,0 +1,36 @@
+----------------------------------------------------------------------------- 
+TL5e   (3D EM extraction)
+2017.04.06
+
+
+----------------------------------------------------------------------------- 
+Macro version: 3.35
+
+----------------------------------------------------------------------------- 
+Settings
+  Material: Measured
+  Datasheet Eps': 3
+  Datasheet Eps'': 0,012
+  THRU file: C:\Users\Hackintosh\Documents\DIP\ParamExtract\measured\PLA_mladec_CAL_149.s2p
+  LINE file: C:\Users\Hackintosh\Documents\DIP\ParamExtract\measured\PLA_mladec_CAL_199.s2p
+  Length difference between THRU and LINE: 50 mm
+  Transmission line length in 3D EM model: 50 mm
+
+
+
+----------------------------------------------------------------------------- 
+Specials settings
+  Maximal frequency for extraction: 12 GHz
+  Maximal phase deviation: 1 deg
+  Maximal magnitude deviation: 0,005 (linear)
+
+----------------------------------------------------------------------------- 
+Values of egL are valid for transmission line length in 3D EM model
+
+----------------------------------------------------------------------------- 
+Importing THRU data (1/3)
+
+----------------------------------------------------------------------------- 
+Importing LINE data (2/3)
+
+
