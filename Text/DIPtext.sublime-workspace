@@ -1,0 +1,987 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hex",
+				"hex2a"
+			],
+			[
+				"temp",
+				"temperatures"
+			],
+			[
+				"Sta",
+				"StatusString"
+			],
+			[
+				"Json",
+				"JSON"
+			],
+			[
+				"res",
+				"resulticek"
+			],
+			[
+				"inde",
+				"indexOf"
+			],
+			[
+				"OK",
+				"OK"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"Po",
+				"PortToFlash"
+			],
+			[
+				"Res",
+				"RestartMac"
+			],
+			[
+				"NO",
+				"NO_Serial"
+			],
+			[
+				"ser",
+				"serialno"
+			],
+			[
+				"seria",
+				"serialno"
+			],
+			[
+				"seri",
+				"serialno"
+			],
+			[
+				"serial",
+				"serialno2"
+			],
+			[
+				"DB",
+				"DB_SN"
+			],
+			[
+				"DB_",
+				"DB_ID"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"bay",
+				"babystepMem"
+			],
+			[
+				"int",
+				"int8_t"
+			],
+			[
+				"lcd_s",
+				"lcd_settings_menu"
+			],
+			[
+				"si",
+				"SilentModeMenu"
+			],
+			[
+				"set",
+				"setCursor"
+			],
+			[
+				"inter",
+				"inters"
+			],
+			[
+				"lon",
+				"longFilename"
+			],
+			[
+				"long",
+				"longFilenameOLD"
+			],
+			[
+				"LCD",
+				"LCD_WIDTH"
+			],
+			[
+				"sc",
+				"scrollstuff"
+			],
+			[
+				"pr",
+				"printthatshit"
+			],
+			[
+				"print",
+				"printthatshit"
+			],
+			[
+				"LCD_cl",
+				"LCD_CLICKED"
+			],
+			[
+				"tem",
+				"tempScrool"
+			],
+			[
+				"SD",
+				"SDscrool"
+			],
+			[
+				"lcd_impl",
+				"lcd_implementation_clear"
+			],
+			[
+				"data",
+				"_data_pins"
+			],
+			[
+				"lcd",
+				"lcd_status_message"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"le",
+				"length-1"
+			],
+			[
+				"lay",
+				"Layers"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"sli",
+				"slic3r"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"Lay",
+				"Layers"
+			],
+			[
+				"leng",
+				"length-1"
+			],
+			[
+				"Layer",
+				"LayersH"
+			],
+			[
+				"Laye",
+				"LayersH"
+			],
+			[
+				"Line",
+				"LineNumber"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "0-0-0-main.tex",
+			"settings":
+			{
+				"buffer_size": 2669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cover.tex",
+			"settings":
+			{
+				"buffer_size": 5316,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "0-Introduction.tex",
+			"settings":
+			{
+				"buffer_size": 1356,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "0-abstract.tex",
+			"settings":
+			{
+				"buffer_size": 2105,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "0-ack.tex",
+			"settings":
+			{
+				"buffer_size": 811,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "0-aff.tex",
+			"settings":
+			{
+				"buffer_size": 753,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ctulogo.png",
+			"settings":
+			{
+				"buffer_size": 1310622,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ctulogo.pdf",
+			"settings":
+			{
+				"buffer_size": 46035,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mitthesis.cls",
+			"settings":
+			{
+				"buffer_size": 20217,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/prusam/Library/Caches/Cleanup At Startup/Transmit/AB644C5B-69B8-4E06-B8A6-706542DDADA3/print.php",
+		"/Users/prusam/GitHubPrusaResearch/KitLabels/TSC/big/2to2S/BIG2to2S.menu",
+		"/Users/prusam/GitHubPrusaResearch/KitLabels/TSC/big/BIGlabel.menu",
+		"/Users/prusam/GitHubPrusaResearch/KitLabels/TSC/small/2to2S/SMALL2to2S.menu",
+		"/Users/prusam/Library/Caches/Cleanup At Startup/Transmit/64F0F76D-5FDA-4C1C-9929-AA0C57B88688/prusa",
+		"/Users/prusam/GitHubPrusaResearch/KitLabels/TSC/small/other/SMALLother.menu",
+		"/Volumes/UNTITLED/E-AX.BAS",
+		"/Users/prusam/Documents/eagle/HEatbed-MK42-mag-V01/gerber_fin/npth.exc",
+		"/Users/prusam/Documents/mp/FuckupSolver/monitor.js",
+		"/Users/prusam/Documents/mp/labelrpint/new.prn",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/Y-bag-printed/Y-bag-printed.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/Y-bag-printed/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/X-bag-printed/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/PSU-HB-bag-pritned/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/LCD-bag-pritned/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/ELE-bag-printed/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Printed/E-bag-printed/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/TOOLS-bag/TOOLS_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/SUPPLEMENTS-gox/Supplements-box.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/RODS-box/Rods-box.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/LCD-bag/LCD-bag_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/Heatbed-box/Heatbed-box_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Metal/E-bag-metal.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/TOOLS-bag/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/SUPPLEMENTS-gox/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/RODS-box/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/LCD-bag/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/Heatbed-box/FORM_0.BAS",
+		"/Volumes/Production/MK2/KitLabels/TSC/Others/ELE-bag-box/FORM_0.BAS",
+		"/Volumes/NO NAME/FORM_0.BAS",
+		"/Volumes/NO NAME/SPARE-bag-metal.BAS",
+		"/Volumes/NO NAME/E-bag-metal.BAS",
+		"/Volumes/NO NAME/WLDSD.GCO",
+		"/Volumes/Untitled/etc/init.d/RTSclient",
+		"/Volumes/DONTEVENTRY/ABS-preaheat.gcode",
+		"/Users/prusam/RTSserver/config.js",
+		"/Volumes/PRUSAI3MK2/V2Calibration.gcode",
+		"/Users/prusam/Documents/mp/fwupdater/app/Info.plist",
+		"/Users/prusam/Documents/mp/fwupdater/app/rme.ps1",
+		"/Users/prusam/Documents/mp/fwupdater/app/rmd.ps1",
+		"/Users/prusam/Documents/mp/fwupdater/app/restartTMP.ps1",
+		"/Users/prusam/Documents/mp/fwupdater/app/restart.ps1",
+		"/Users/prusam/Documents/mp/fwupdater/app/LICENSE",
+		"/Users/prusam/Documents/mp/fwupdater/app/node_modules/serialport/binding.gyp",
+		"/Users/prusam/Documents/mp/fwupdater/app/node_modules/serialport/node_modules/bindings/bindings.js",
+		"/Users/prusam/Documents/mp/fwupdater/app/node_modules/serialport/node_modules/bindings/package.json",
+		"/Users/prusam/Documents/mp/fwupdater/app/node_modules/serialport/package.json",
+		"/Users/prusam/Documents/mp/fwupdater/app/node_modules/serialport/bin/serialport-terminal.js",
+		"/Users/prusam/Documents/mp/fwupdater/app/css/style.css",
+		"/Users/prusam/Library/Caches/Cleanup At Startup/Transmit/EF9FE839-12DE-4942-A5CE-A4A97EC27A54/harvester.cpp",
+		"/Users/prusam/Library/Caches/Cleanup At Startup/Transmit/95E75B36-4EBC-457C-93A1-4AA5CE24C6A7/testing.bin",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Power-SMPS.SchDoc",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Power-ATX.SchDoc",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Motors.SchDoc",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo.PrjPcbStructure",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo.PrjPcb",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo.PcbDoc",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo.OutJob",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo.Dat",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo.Annotation",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo-ATX.PrjPcbStructure",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo-ATX.PrjPcb",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo-ATX.Annotation",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo-ATX.PcbDoc",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/Mini-Rambo-ATX.OutJob",
+		"/Users/prusam/Downloads/Mini-Rambo-1.1b/board/MCU.SchDoc",
+		"/Volumes/PRUSAI3MK2/upgradetest.gcode",
+		"/Applications/FirmwareUpdater.app/Contents/Resources/app.nw/js/main.js",
+		"/Users/prusam/Library/Application Support/T/RootTools/roottools.conf",
+		"/Users/prusam/Downloads/epo_program/Seriovka_klavesnice/serial_key.a51",
+		"/Users/prusam/Downloads/rambo-32u2-usbserial-compatid/makefile",
+		"/Users/prusam/Downloads/epo_program/Seriovka_3x7/prusam_01_u_4.a51",
+		"/Users/prusam/Downloads/epo_program/maticak_zobrazeni_znaku_real/prusam_5x7b.a51",
+		"/Users/prusam/Downloads/CoolTerm_0.stc",
+		"/Users/prusam/Music/sorted.js",
+		"/Users/prusam/Prusa-Firmware/Firmware/pins.h",
+		"/Volumes/Production/git/RTSclient/testclient/cpp/flashtest.cpp",
+		"/Users/prusam/Downloads/Firmware/variants/175-LS-RAMBo1-3a.h",
+		"/Users/prusam/Downloads/Firmware/variants/175-RAMBo1-3a-metal.h",
+		"/Users/prusam/Downloads/Firmware/variants/175-RAMBo1-3a.h",
+		"/Users/prusam/Downloads/Firmware/variants/300-RAMBo1-0a.h",
+		"/Users/prusam/Downloads/Firmware/variants/300-RAMBo1-3a.h",
+		"/Users/prusam/Downloads/Firmware/variants/175-RAMBo1-0a-metal.h",
+		"/Users/prusam/Downloads/Firmware/variants/175-RAMBo1-0a.h",
+		"/Users/prusam/Downloads/Prusa-i3-Plus-master/Firmware/vector_3.cpp",
+		"/Users/prusam/Downloads/Firmware/temperature.h",
+		"/Users/prusam/Downloads/Firmware/temperature.cpp",
+		"/Users/prusam/Library/Caches/Cleanup At Startup/Transmit/551527AD-C4F4-4161-B490-9F8C3A7D15CE/client.cpp",
+		"/Users/prusam/Documents/eagle/HEatbed-MK42/gerbers/npth-all.exc",
+		"/Users/prusam/Documents/eagle/HEatbed-MK42/gerbers/npth-6mm.exc",
+		"/Users/prusam/Documents/eagle/HEatbed-MK42/gerbers/npth-3_2mm.exc",
+		"/Volumes/Production/git/Monitoring/cpp/Client.sublime-workspace",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/boards.h",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/language_cz.h",
+		"/Users/prusam/Library/Caches/Cleanup At Startup/Transmit/9DB93710-9561-46CC-AD89-F118A176707C/library.properties",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/Marlin_main.cpp",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/cardreader.h",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/cardreader.cpp",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/SdFatConfig.h",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/LiquidCrystal.h",
+		"/Volumes/Production/Firmware/fvrun/Marlin1-0-3_RamboMini1-3_EN/LiquidCrystal.cpp",
+		"/Volumes/C/Users/Michal/Desktop/Prusa.gcode",
+		"/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN/ultralcd.h",
+		"/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN/ultralcd.cpp",
+		"/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN/pins.h",
+		"/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN/language.h",
+		"/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN/Marlin1-0-3_RamboMini1-3_EN.ino",
+		"/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN/language_en.h",
+		"/Applications/arduino.app/Contents/Resources/Java/libraries/Robot_Control/SdCard.h",
+		"/Applications/arduino.app/Contents/Resources/Java/libraries/Robot_Control/ArduinoRobot.cpp",
+		"/Users/prusam/Downloads/watch.gcode",
+		"/Users/prusam/Documents/eagle/HomeAutom/windowctntr.gcode",
+		"/Users/prusam/Downloads/motors.html",
+		"/Users/prusam/Documents/MotorsEmail",
+		"/Volumes/Common/adent/server/mystylesheet.css",
+		"/Volumes/C/Users/Michal/AppData/Roaming/OBS/scenes.xconfig",
+		"/Volumes/Common/FWupdater/app/js/main.js",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_CZ/pins.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_CZ/Configuration_adv.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_EN/language.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_EN/ultralcd.cpp",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_EN/Configuration.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_EN/language_en.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_EN/pins.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-0_EN/Configuration_adv.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-3_CZ/Configuration.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-3_CZ/language.h",
+		"/Volumes/Production/git/Prusa i3 Plus 1.75mm/Firmware/Marlin1-0-3_RamboMini1-3_CZ/ultralcd.cpp"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ping",
+			"swap",
+			"127.0",
+			"prusanator",
+			"height",
+			"notes",
+			"temp",
+			"D8:B0:4C:BA:6D:4F",
+			"unifi",
+			"Š",
+			"C1:00",
+			"conf",
+			"doPrint",
+			"DoPrint",
+			"G1 Z0.65",
+			"G1 Z1.95",
+			"G1 Z0.3",
+			"G1 Z0.2",
+			"G1 Z0.15",
+			"G1 Z0.2",
+			"G1 Z0.1",
+			"G1 Z1.8",
+			"G1 Z0.6",
+			"G1 Z0.2",
+			"G1 Z0.1",
+			"G1 Z0.7",
+			"G1 Z0.5",
+			"G1 Z0.4",
+			"G1 Z0.3",
+			"G1 Z0.2",
+			"M600",
+			"endsto",
+			"test",
+			"X",
+			"34",
+			"voided",
+			"was not voided",
+			"ImageType",
+			"Format",
+			"EPL",
+			"ZT",
+			"sbmt",
+			"submit",
+			"\"200",
+			".get",
+			"st",
+			"data",
+			"fields",
+			"MK1",
+			"RL",
+			"passed",
+			"config.",
+			"TestRoutineItems",
+			"clients",
+			"flash",
+			"T0",
+			"T",
+			"T0",
+			"T",
+			"ps1",
+			"rme",
+			"wiring",
+			"support",
+			"new",
+			"newe",
+			"newer",
+			"46",
+			"43",
+			"46",
+			"43",
+			"text",
+			"T1",
+			"T0",
+			";AFTER_LAYER_CHANGE000",
+			"M84",
+			"G1 Z0.200 F7200.000",
+			";AFTER_LAYER_CHANGE.000000 E-3.00000000",
+			";cp",
+			"get_coordinates()",
+			";CP",
+			"G1 Z53",
+			"R1",
+			"Q8",
+			"Q9",
+			"Q8",
+			"Q9",
+			"007D08",
+			"1d",
+			"Kalibrace Z",
+			"correz",
+			",",
+			"MYSQL_TYPE_JSON",
+			"mac",
+			"Prusa-Firmware/",
+			"Prusa-Firmware",
+			"PrusaFirmware",
+			"RAMBO",
+			"RAMBO	",
+			"axis",
+			"home",
+			"Z",
+			"115",
+			"RL",
+			"st1RL",
+			"connect",
+			".end;",
+			".end",
+			"DB_sn",
+			"type  = ",
+			"type	= ",
+			"type	= \"",
+			"type  = \"",
+			"type",
+			"arduino",
+			"ardu",
+			"m32u",
+			"m32",
+			"avrisp",
+			"m32u2",
+			"T",
+			"Pasma prizpzsobeni anteny.",
+			"Vstupni impedance.",
+			"Prizpesobeni.",
+			"mul",
+			"video",
+			"DFU",
+			"SERIAL_ECHO(",
+			"zip"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Š",
+			"",
+			"config.TestRoutineItems",
+			".",
+			"type	= ",
+			"type  = ",
+			"Pásma přizpůsobení antény.",
+			"Vstupní impedance.",
+			"Přizpůsobení.",
+			"Serial.print(",
+			",",
+			"",
+			"#ifndef Z_PROBE_SLED",
+			"#ifdef Z_PROBE_SLED",
+			"#ifdef AUTO_BED_LEVELING_GRID",
+			"#ifdef DEBUG_LEVELING_FEATURE",
+			"#ifdef MESH_BED_LEVELING",
+			"new_termios",
+			");",
+			"= 10*log10(",
+			"EKGe;",
+			"EKG0dBfilBut20",
+			"\"},\n{\"",
+			",",
+			":)"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "0-0-0-main.tex",
+					"settings":
+					{
+						"buffer_size": 2669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2282,
+								2282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1111.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "cover.tex",
+					"settings":
+					{
+						"buffer_size": 5316,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 692.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "0-Introduction.tex",
+					"settings":
+					{
+						"buffer_size": 1356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "0-abstract.tex",
+					"settings":
+					{
+						"buffer_size": 2105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "0-ack.tex",
+					"settings":
+					{
+						"buffer_size": 811,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "0-aff.tex",
+					"settings":
+					{
+						"buffer_size": 753,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "ctulogo.png",
+					"settings":
+					{
+						"buffer_size": 1310622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "ctulogo.pdf",
+					"settings":
+					{
+						"buffer_size": 46035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "mitthesis.cls",
+					"settings":
+					{
+						"buffer_size": 20217,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								709,
+								709
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/TeX.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.build|/Applications/arduino.app/Contents/Resources/Java/libraries/Robot_Control|1449489553.26":
+	{
+		"height": 0.0
+	},
+	"output.build|/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN|1449489469.39":
+	{
+		"height": 142.0
+	},
+	"output.build|/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN|1449489481.83":
+	{
+		"height": 142.0
+	},
+	"output.build|/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN|1449489571.95":
+	{
+		"height": 142.0
+	},
+	"output.build|/Users/prusam/Documents/FW cleanup/Marlin1-0-3_RamboMini1-3_EN|1449489902.68":
+	{
+		"height": 142.0
+	},
+	"output.build|/Volumes/Production/Firmware/175-shortY/Marlin1-0-3_RamboMini1-3_CZ|1449773572.73":
+	{
+		"height": 142.0
+	},
+	"output.build|/Volumes/Production/Firmware/175-shortY/Marlin1-0-3_RamboMini1-3_CZ|1449773644.14":
+	{
+		"height": 142.0
+	},
+	"output.build|/Volumes/Production/Firmware/175-shortY/Marlin1-0-3_RamboMini1-3_CZ|1449773671.76":
+	{
+		"height": 142.0
+	},
+	"output.exec":
+	{
+		"height": 164.0
+	},
+	"output.latextools":
+	{
+		"height": 242.0
+	},
+	"output.upload|/Volumes/MichalData/Epic Byt/WindowClient/WindowClient|1449273233.47":
+	{
+		"height": 142.0
+	},
+	"output.upload|/Volumes/MichalData/Epic Byt/WindowClient/WindowClient|1449273256.26":
+	{
+		"height": 142.0
+	},
+	"output.upload|/Volumes/MichalData/Epic Byt/WindowClient/WindowClient|1449273276.42":
+	{
+		"height": 142.0
+	},
+	"output.upload|/Volumes/Production/Firmware/175-shortY/Marlin1-0-3_RamboMini1-3_CZ|1449772851.6":
+	{
+		"height": 142.0
+	},
+	"output.upload|/Volumes/Production/Firmware/175-shortY/Marlin1-0-3_RamboMini1-3_CZ|1449773351.61":
+	{
+		"height": 142.0
+	},
+	"output.upload|/Volumes/Production/Firmware/175-shortY/Marlin1-0-3_RamboMini1-3_CZ|1449773547.29":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 125.0,
+	"status_bar_visible": true
+}
