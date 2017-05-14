@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.15)  10 MAY 2017 13:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.15)  14 MAY 2017 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -945,8 +945,8 @@ LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 
 Writing nomenclature file 0-0-0-main.nlo
 (./0-0-0-main.aux (./cover.aux) (./contents.aux) (./0-Introduction.aux)
-(./1-HornAntenna.aux) (./2-AntannaLens.aux) (./3-Materials.aux)
-(./4-Realization.aux) (./5-Conclusion.aux))
+(./1-Theoretical.aux) (./2-Design.aux) (./3-Realization.aux)
+(./4-Conclusion.aux))
 \openout1 = `0-0-0-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
@@ -1115,16 +1115,24 @@ Overfull \hbox (6.88898pt too wide) in paragraph at lines 16--18
 ])
 \openout2 = `contents.aux'.
 
- (./contents.tex (./0-0-0-main.toc)
+ (./contents.tex (./0-0-0-main.toc<<ot1.cmap>><<oml.cmap>><<oms.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 2.
+<<omx.cmap>>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 2.
+ [8
+
+
+
+
+])
 \tf@toc=\write5
 \openout5 = `0-0-0-main.toc'.
 
-) [8
-
-
-
-
-]
+) [9]
 \openout2 = `0-Introduction.aux'.
 
  (./0-Introduction.tex
@@ -1134,76 +1142,74 @@ Kapitola 1.
 
 
 ]
-\openout2 = `1-HornAntenna.aux'.
+\openout2 = `1-Theoretical.aux'.
 
- (./1-HornAntenna.tex
+ (./1-Theoretical.tex
 Kapitola 2.
-) [2
+<pics/fdm.png, id=89, 314.95267pt x 260.75015pt>
+File: pics/fdm.png Graphic file (type png)
+ <use pics/fdm.png>
+Package pdftex.def Info: pics/fdm.png used on input line 20.
+(pdftex.def)             Requested size: 270.30118pt x 223.79115pt.
+ [2
 
 
 
 ]
-\openout2 = `2-AntannaLens.aux'.
+[3 <./pics/fdm.png>]) [4]
+\openout2 = `2-Design.aux'.
 
- (./2-AntannaLens.tex
+ (./2-Design.tex
 Kapitola 3.
-) [3
-
-
-
-]
-\openout2 = `3-Materials.aux'.
-
- (./3-Materials.tex
-Kapitola 4.
-) [4
-
-
-
-]
-\openout2 = `4-Realization.aux'.
-
- (./4-Realization.tex
-Kapitola 5.
 ) [5
 
 
 
 ]
-\openout2 = `5-Conclusion.aux'.
+\openout2 = `3-Realization.aux'.
 
- (./5-Conclusion.tex
-Kapitola 6.
+ (./3-Realization.tex
+Kapitola 4.
 ) [6
 
 
 
-] [7
+]
+\openout2 = `4-Conclusion.aux'.
+
+ (./4-Conclusion.tex
+Kapitola 5.
+) [7
+
+
+
+] [8
 
 ] (./0-0-0-main.aux (./cover.aux) (./contents.aux)
-(./0-Introduction.aux) (./1-HornAntenna.aux) (./2-AntannaLens.aux)
-(./3-Materials.aux) (./4-Realization.aux) (./5-Conclusion.aux)) ) 
+(./0-Introduction.aux) (./1-Theoretical.aux) (./2-Design.aux)
+(./3-Realization.aux) (./4-Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 30021 strings out of 493014
- 772577 string characters out of 6133351
- 979506 words of memory out of 5000000
- 33004 multiletter control sequences out of 15000+600000
- 11671 words of font info for 25 fonts, out of 8000000 for 9000
+ 30065 strings out of 493014
+ 773082 string characters out of 6133351
+ 981194 words of memory out of 5000000
+ 33031 multiletter control sequences out of 15000+600000
+ 14110 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,18n,77p,727b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/te
-xlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texliv
-e/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on 0-0-0-main.pdf (15 pages, 359094 bytes).
+ 62i,18n,77p,1103b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2016/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
+ype1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
+/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1200.pfb>
+Output written on 0-0-0-main.pdf (17 pages, 411011 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 42 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
