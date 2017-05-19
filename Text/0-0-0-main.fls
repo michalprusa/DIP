@@ -363,6 +363,12 @@ INPUT 1-Theoretical.tex
 INPUT pics/fdm.png
 INPUT ./pics/fdm.png
 INPUT ./pics/fdm.png
+INPUT pics/fillcompare.png
+INPUT ./pics/fillcompare.png
+INPUT ./pics/fillcompare.png
+INPUT pics/6layer.png
+INPUT ./pics/6layer.png
+INPUT ./pics/6layer.png
 OUTPUT 2-Design.aux
 INPUT 2-Design.tex
 INPUT 2-Design.tex

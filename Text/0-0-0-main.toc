@@ -5,20 +5,23 @@
 \contentsline {section}{\numberline {2.1}3D tisk a materi\IeC {\'a}ly}{2}
 \contentsline {subsection}{\numberline {2.1.1}Princip technologie FDM}{2}
 \contentsline {subsection}{\numberline {2.1.2}Vlastnosti technologie}{3}
-\contentsline {subsection}{\numberline {2.1.3}Materi\IeC {\'a}ly vyu\IeC {\v z}iteln\IeC {\'e} pro vysokofrekven\IeC {\v c}n\IeC {\'\i } techniku}{3}
-\contentsline {section}{\numberline {2.2}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na}{3}
-\contentsline {subsection}{\numberline {2.2.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{4}
-\contentsline {subsection}{\numberline {2.2.2}Vlastnosti struktury}{4}
-\contentsline {section}{\numberline {2.3}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{4}
-\contentsline {subsection}{\numberline {2.3.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{4}
-\contentsline {subsection}{\numberline {2.3.2}Vlastnosti struktury}{4}
-\contentsline {section}{\numberline {2.4}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{4}
-\contentsline {chapter}{\numberline {3}N\IeC {\'a}vrh}{5}
-\contentsline {section}{\numberline {3.1}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} antn\IeC {\'e}na}{5}
-\contentsline {section}{\numberline {3.2}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{5}
-\contentsline {section}{\numberline {3.3}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{5}
-\contentsline {chapter}{\numberline {4}Realizace}{6}
-\contentsline {section}{\numberline {4.1}3D tisk}{6}
-\contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{6}
-\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{6}
-\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{7}
+\contentsline {subsubsection}{Vrstvy}{4}
+\contentsline {subsubsection}{Vnit\IeC {\v r}n\IeC {\'\i } struktury}{4}
+\contentsline {subsection}{\numberline {2.1.3}Materi\IeC {\'a}ly vyu\IeC {\v z}iteln\IeC {\'e} pro vysokofrekven\IeC {\v c}n\IeC {\'\i } techniku}{5}
+\contentsline {subsubsection}{"Vodiv\IeC {\'e}" materi\IeC {\'a}ly}{6}
+\contentsline {section}{\numberline {2.2}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na}{6}
+\contentsline {subsection}{\numberline {2.2.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{6}
+\contentsline {subsection}{\numberline {2.2.2}Vlastnosti struktury}{6}
+\contentsline {section}{\numberline {2.3}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{6}
+\contentsline {subsection}{\numberline {2.3.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{6}
+\contentsline {subsection}{\numberline {2.3.2}Vlastnosti struktury}{6}
+\contentsline {section}{\numberline {2.4}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{6}
+\contentsline {chapter}{\numberline {3}N\IeC {\'a}vrh}{7}
+\contentsline {section}{\numberline {3.1}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} antn\IeC {\'e}na}{7}
+\contentsline {section}{\numberline {3.2}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{7}
+\contentsline {section}{\numberline {3.3}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{7}
+\contentsline {chapter}{\numberline {4}Realizace}{8}
+\contentsline {section}{\numberline {4.1}3D tisk}{8}
+\contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{8}
+\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{8}
+\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{9}
