@@ -11,17 +11,19 @@
 \contentsline {subsubsection}{"Vodiv\IeC {\'e}" materi\IeC {\'a}ly}{6}
 \contentsline {section}{\numberline {2.2}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na}{6}
 \contentsline {subsection}{\numberline {2.2.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{6}
-\contentsline {subsection}{\numberline {2.2.2}Vlastnosti struktury}{6}
-\contentsline {section}{\numberline {2.3}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{6}
-\contentsline {subsection}{\numberline {2.3.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{6}
-\contentsline {subsection}{\numberline {2.3.2}Vlastnosti struktury}{6}
-\contentsline {section}{\numberline {2.4}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{6}
-\contentsline {chapter}{\numberline {3}N\IeC {\'a}vrh}{7}
-\contentsline {section}{\numberline {3.1}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} antn\IeC {\'e}na}{7}
-\contentsline {section}{\numberline {3.2}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{7}
-\contentsline {section}{\numberline {3.3}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{7}
-\contentsline {chapter}{\numberline {4}Realizace}{8}
-\contentsline {section}{\numberline {4.1}3D tisk}{8}
-\contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{8}
-\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{8}
-\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{9}
+\contentsline {subsection}{\numberline {2.2.2}Charakterizace struktury}{8}
+\contentsline {subsubsection}{Sm\IeC {\v e}rovost a zisk}{8}
+\contentsline {subsubsection}{F\IeC {\'a}zov\IeC {\'a} chyba}{8}
+\contentsline {section}{\numberline {2.3}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ky}{9}
+\contentsline {subsection}{\numberline {2.3.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{9}
+\contentsline {section}{\numberline {2.4}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{10}
+\contentsline {subsection}{\numberline {2.4.1}Princip extrakce}{11}
+\contentsline {chapter}{\numberline {3}N\IeC {\'a}vrh}{12}
+\contentsline {section}{\numberline {3.1}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} antn\IeC {\'e}na}{12}
+\contentsline {section}{\numberline {3.2}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{12}
+\contentsline {section}{\numberline {3.3}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{12}
+\contentsline {chapter}{\numberline {4}Realizace}{13}
+\contentsline {section}{\numberline {4.1}3D tisk}{13}
+\contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{13}
+\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{13}
+\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{15}

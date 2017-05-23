@@ -12,3 +12,46 @@
 \section{Pokovení}
 
 \section{Měření parametrů}
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Angle /},
+    ylabel={Amplitude /\,dB},
+    minor tick num=10,
+    minor grid style={gray!25},
+  	major grid style={black!50},
+  	xmin=-180,xmax = 180,
+  	ymin=-120, ymax=-60,
+    grid=both
+]
+\addplot [no markers, thick, blue] table [col sep=tab, y=Ae-graph] {horn.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=Ae-emi] {horn.dat};
+\addplot [no markers, thick, green] table [col sep=tab, y=Ae-lens] {horn.dat};
+\end{axis}
+\end{tikzpicture}
+\caption{Řez vyzařovací charakteristiky v E rovině}
+\end{figure}
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Angle /},
+    ylabel={Amplitude /\,dB},
+    minor tick num=10,
+    minor grid style={gray!25},
+  	major grid style={black!50},
+  	xmin=-180,xmax = 180,
+  	ymin=-120, ymax=-60,
+    grid=both
+]
+\addplot [no markers, thick, blue] table [col sep=tab, y=Ah-graph] {horn.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=Ah-emi] {horn.dat};
+\addplot [no markers, thick, green] table [col sep=tab, y=Ah-lens] {horn.dat};
+\end{axis}
+\end{tikzpicture}
+\caption{Řez vyzařovací charakteristiky v H rovině}
+\end{figure}
+
+
+

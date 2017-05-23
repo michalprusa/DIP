@@ -1,10 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1495157230 "1-Theoretical.tex" "1-Theoretical.pdf" "1-Theoretical" 1495157230
+["pdflatex"] 1495333020 "1-Theoretical.tex" "1-Theoretical.pdf" "1-Theoretical" 1495333021
+  "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1487146060 3873397 4dbf23ea03578dc53f0ef32f017f3380 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "1-Theoretical.aux" 1495156996 2761 ee264d54e8b826d0295e901617188ea7 ""
-  "1-Theoretical.tex" 1495157229 7757 d0ea3e0138ec4a8626126e0d65d15d22 ""
+  "1-Theoretical.aux" 1495332509 3455 a4305c14fd61797e7916ef061165a77b ""
+  "1-Theoretical.tex" 1495333018 11300 f2d9f330c84e599ba7fe8185e229e544 ""
   (generated)
   "1-Theoretical.log"
   "1-Theoretical.pdf"
