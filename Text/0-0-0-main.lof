@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2-1}{\ignorespaces Princip technologie FDM. 1 - Tiskov\IeC {\'a} podlo\IeC {\v z}ka, 2 - Ji\IeC {\v z} hotov\IeC {\'e} vrstvy v\IeC {\'y}sledn\IeC {\'e}ho objektu, 3 - Hork\IeC {\'a} z\IeC {\'o}na trysky, 4 - Tryska, 5 - Filament, F - Vtla\IeC {\v c}ovac\IeC {\'\i } s\IeC {\'\i }la}}{3}
+\contentsline {figure}{\numberline {2-2}{\ignorespaces Porovn\IeC {\'a}n\IeC {\'\i } r\IeC {\r u}zn\IeC {\'e}ho motivu vrstvy, a) 100\,\% vypl\IeC {\v n} typem rectilinear, b) 20\,\% vypln\IeC {\v n} typem cubic}}{5}
+\contentsline {figure}{\numberline {2-3}{\ignorespaces N\IeC {\'a}hled vrstev 1-6 struktury s kombinovanou v\IeC {\'y}pln\IeC {\'\i } typu rectilinear (prvn\IeC {\'\i } dv\IeC {\v e} vrstvy) a cubic o rozd\IeC {\'\i }ln\IeC {\'e} procentu\IeC {\'a}ln\IeC {\'\i } v\IeC {\'y}plni}}{5}
+\contentsline {figure}{\numberline {2-4}{\ignorespaces Pyramid\IeC {\'a}ln\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na \cite {ConstantineTheory}}}{7}
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Pyramid\IeC {\'a}ln\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na v \IeC {\v r}ezu a)E-roviny, b)H-roviny \cite {ConstantineTheory}}}{7}
+\contentsline {figure}{\numberline {2-6}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } f\IeC {\'a}zov\IeC {\'e} chyby $Y$}}{9}
+\contentsline {figure}{\numberline {2-7}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e} pro r\IeC {\r u}zn\IeC {\'e} \IeC {\'u}hly otev\IeC {\v r}en\IeC {\'\i } pyramid\IeC {\'a}ln\IeC {\'\i }ho trycht\IeC {\'y}\IeC {\v r}e}}{10}
+\contentsline {figure}{\numberline {2-8}{\ignorespaces Princip ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ky}}{11}
+\contentsline {figure}{\numberline {2-9}{\ignorespaces Typy ant\IeC {\'e}nn\IeC {\'\i }ch \IeC {\v c}o\IeC {\v c}ek. 1 - Zpomaluj\IeC {\'\i }c\IeC {\'\i }, 2 - Zrychluj\IeC {\'\i }c\IeC {\'\i }}}{11}
+\contentsline {figure}{\numberline {2-10}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma transmisn\IeC {\'\i }/reflexn\IeC {\'\i } extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}}{12}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Vstupn\IeC {\'\i } model ant\IeC {\'e}ny}}{14}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e}, kde: \textbf {A}-$p=140\,mm$, \textbf {B}-$p=140\,mm$; $plth=1.45\,mm$, \textbf {C}-$p=140\,mm$; $plth=0.9\,mm$, \textbf {D}-$p=140\,mm$; $plth=1.45\,mm$; $G=133.3\,S/m$}}{16}
+\contentsline {figure}{\numberline {3-3}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod}}{17}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod a n\IeC {\'a}sledn\IeC {\'e} sestaven\IeC {\'\i }}}{17}
+\contentsline {figure}{\numberline {3-5}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e}, kde: \textbf {A} - P\IeC {\r u}vodn\IeC {\'\i } optimalizovan\IeC {\'y} trycht\IeC {\'y}\IeC {\v r}, \textbf {B} - Trycht\IeC {\'y}\IeC {\v r} s p\IeC {\v r}\IeC {\'\i }rubami na sestaven\IeC {\'\i }}}{18}
+\contentsline {figure}{\numberline {3-6}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma transmisn\IeC {\'\i }/reflexn\IeC {\'\i } extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}}{18}
+\contentsline {figure}{\numberline {3-7}{\ignorespaces N\IeC {\'a}vrh \IeC {\v c}o\IeC {\v c}ky}}{20}
+\contentsline {figure}{\numberline {3-8}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model \IeC {\v c}o\IeC {\v c}ky}}{20}
+\contentsline {figure}{\numberline {3-9}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} \IeC {\v c}o\IeC {\v c}ky}}{20}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4-1}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod realizovan\IeC {\'y} technologi\IeC {\'\i } 3D tisku za pou\IeC {\v z}it\IeC {\'\i } F-electric filamentu}}{23}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces D\IeC {\r u}sledek ucpav\IeC {\'a}n\IeC {\'\i } trysky v pr\IeC {\r u}b\IeC {\v e}hu tisku modelu}}{24}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces \IeC {\v R}ez nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'e}ho trycht\IeC {\'y}\IeC {\v r}e z materi\IeC {\'a}lu F-electric v E rovin\IeC {\v e}}}{25}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces \IeC {\v R}ez vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky v H rovin\IeC {\v e}}}{25}
+\addvspace {10\p@ }

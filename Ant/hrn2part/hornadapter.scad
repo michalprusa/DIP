@@ -42,7 +42,7 @@ translate([0,0,6])cube([24,11,13], center = true);
     translate([41.5/2, -6 , 8])rotate([0,45,0])cube([0.5,60,0.5], center = true);
     
     translate([-6, -41.5/2 , 8])rotate([45,0,0])cube([60,0.5,0.5], center = true);
-    translate([-6, 41.5/2 , 8])rotate([45,0,0])cube([60,0.5,0.5], center = true);net
+    translate([-6, 41.5/2 , 8])rotate([45,0,0])cube([60,0.5,0.5], center = true);
     
 }
 

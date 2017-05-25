@@ -56,7 +56,7 @@ Mezi nejrozšířenější patří PLA, ABS a PET, tyto materiály však lze upl
 \subsubsection{"Vodivé" materiály}
 Jelikož mezi nejrozšířenější materiály patří PLA, které vykazuje výborné zpracovatelské vlastnosti je většina těchno směsí právě na tomto nosiči.
 Jako příměs pro vodivé materiály je možno použít teoreticky jakékoliv fragmenty vodivé látky jako třeba měď, stále populárnější je ale grafén, z důvodu jeho vysoké vodivosti způsobené $\pi$ elektrony. Při plnění nosného polymeru je však nutno brát v potaz že při zvyšujícím se podílu plniva se vlastnosti výsledné směsi velmi mění.
-Jelikož je pro nás nyní nejvýznamnější elektrická vodivost, je tedy logický cíl maximalizace právě tohoto kritéria. Bohužel se ale stále bude jednat o směs vysoce vodivého materiálu ve velmi nevodivém polymeru, což má dramatický dopad na výsledek. V první řadě ikdyž budeme uvažovat dokonale uniformní rozložení a identické frakce příměsi ve filamentu, vlivem průchodu extrudérem nelze předpokládat, že výsledek bude stejný. Dochází totiž k opětovnému promísení a dokonalý popis celého systému zatím není znám. V druhé řadě je třeba stále brát ohled na zpracovatelnost materiálu a volit správné poměry příměsí, z pravidla 40 - 80\,\%[2- Konzultace Josef Doleček - Filamentum]. Z výše uvedených faktů je bohužel patrné, že výsledný produkt má nezanedbatelné dielektrické vlastnosti.
+Jelikož je pro nás nyní nejvýznamnější elektrická vodivost, je tedy logický cíl maximalizace právě tohoto kritéria. Bohužel se ale stále bude jednat o směs vysoce vodivého materiálu ve velmi nevodivém polymeru, což má dramatický dopad na výsledek. V první řadě ikdyž budeme uvažovat dokonale uniformní rozložení a identické frakce příměsi ve filamentu, vlivem průchodu extrudérem nelze předpokládat, že výsledek bude stejný. Dochází totiž k opětovnému promísení a dokonalý popis celého systému zatím není znám. V druhé řadě je třeba stále brát ohled na zpracovatelnost materiálu a volit správné poměry příměsí, z pravidla 40 - 80\,\%\cite{Dolecek}. Z výše uvedených faktů je bohužel patrné, že výsledný produkt má nezanedbatelné dielektrické vlastnosti.
 Ačkoliv se může zdát že tyto materiály nejsou pro naši aplikaci zatím použitelné, stále existuje možnost následného pokovení produktu, kde tyto vlastnosti výrazně zjednoduší proces.
 
 \section{Trychtýřová anténa}
@@ -70,7 +70,7 @@ Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/horn}
-\caption{Pyramidální trychtýřová anténa}
+\caption{Pyramidální trychtýřová anténa \cite{ConstantineTheory}}
 \label{fig:horn}
 \end{center}
 \end{figure}
@@ -78,13 +78,14 @@ Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=15cm]{pics/hornEH}
-\caption{Pyramidální trychtýřová anténa v řezu a)E-roviny, b)H-roviny}
+\caption{Pyramidální trychtýřová anténa v řezu a)E-roviny, b)H-roviny \cite{ConstantineTheory}}
 \label{fig:hornEH}
 \end{center}
 \end{figure}
 \begin{itemize}
 \item $a, b$ - Rozměry vlnovodu
 \item $a_1, b_1$ - Rozměry ústí trychtýře
+\item $p_1, p_2$ - Vzdálenost vrcholu trychtýře od ústí v E a H rovině
 \item $x', y'$ - E-rovina, H-rovina
 \item $z'$ - Směr Poyntingova vektoru
 \item $\rho$ - Délka stěny trychtýře
@@ -96,29 +97,19 @@ Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}
 
 
 \subsubsection{Směrovost a zisk}
-Směrovost charakterizuje strukturu z hlediska poměru intenzit vyzářeného výkonu struktury do určitého směru, ku celkovému vyzářenému výkonu do celého prostoru. Jde tedy o schopnost antény "směrovat" výkon do určitého směru. Toto však z principu reciprocity paltí i opačně, tedy pro přijatý výkon. Na základě tohoto lze definovat maximální směrovost antény.
+Směrovost charakterizuje strukturu z hlediska poměru intenzit vyzářeného výkonu struktury do určitého směru, ku celkovému vyzářenému výkonu do celého prostoru. Jde tedy o schopnost antény "směrovat" výkon do určitého směru. Toto však z principu reciprocity paltí i opačně, tedy pro přijatý výkon. Na základě tohoto lze definovat maximální směrovost antény \ref{eq:hornD}.
 
-\renewcommand{\figurename}{}
-\begin{center}
-\LARGE{$G_p/dB = 10*[1.008+\log_{10}(\frac{a_1 * b_1}{\lambda^2})]$}
-\begin{figure}[h]
-\caption{Maximální směrovost pyramidální trychtýřové antény}
-\label{fig:hornG}
-\end{figure}
-\end{center}
-\renewcommand{\figurename}{Obrázek}
+\begin{equation}
+D_p/dB = 10*[1.008+\log_{10}({\frac{a_1 * b_1}{\lambda^2}})]
+\label{eq:hornD}
+\end{equation}
 
 \renewcommand{\figurename}{Obrázek}
-Zisk antény je však pro aplikace zajímavějším parametrem, jelikož zahrnuje i ztráty vyzařovací účinností $\eta_r$.
-\renewcommand{\figurename}{}
-\begin{center}
-\LARGE{$G_{dB} = D_{dB} - \eta_{r(dB)}$}
-\begin{figure}[h]
-\caption{Vztah zisku a směrovosti}
-\label{fig:hornG}
-\end{figure}
-\end{center}
-\renewcommand{\figurename}{Obrázek}
+Zisk antény \ref{eq:hornG} je však pro aplikace zajímavějším parametrem, jelikož zahrnuje i ztráty vyzařovací účinností $\eta_r$.
+\begin{equation}
+G_{dB} = D_{dB} - \eta_{r(dB)}
+\label{eq:hornG}
+\end{equation}
 
 \subsubsection{Fázová chyba}
 Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k transformaci vlny rovinné na kulovou. Z této skutečnosti plyne, že na rozhraní ústí trychtýře bude existovat oblast, kde se střed vlny bude nacházet právě na rozhraní, ale její okraje stále uvnitř. Tento rozdíl se nazývá fázová chyba a vede k deformaci směrové charakteristiky a snížení směrovosti. Pro minimalizaci této chyby je vhodné, aby úhel otevření trychtýře byl co nejmenší, nicméně je však ale nutno brát v potaz, že tímto narůstá jeho odélka a zároveň i náročnost realizace.
@@ -130,6 +121,27 @@ Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k t
 \end{center}
 \end{figure}
 
+\begin{figure}
+\begin{tikzpicture}[scale=1.4]
+\begin{axis}[
+    xlabel={Angle /},
+    ylabel={Amplitude /\,dB},
+    minor tick num=10,
+    minor grid style={gray!25},
+  	major grid style={black!50},
+  	xmin=-180,xmax = 180,
+  	%ymin=-120, ymax=-60,
+    grid=both
+]
+\addplot [no markers, thick, blue] table [col sep=tab, y=AeOpt] {hornSim.dat};
+\addplot [no markers, thick, green] table [col sep=tab, y=Ae180] {hornSim.dat};
+\addplot [no markers, thick, orange] table [col sep=tab, y=Ae140thin] {hornSim.dat};
+\legend{228\,mm,180\,mm,140\,mm};
+\end{axis}
+\end{tikzpicture}
+\caption{Řezy směrových charakteristiky v E rovině pro různé úhly otevření pyramidálního trychtýře}
+\label{fig:HornLenDep}
+\end{figure}
 
 \newpage
 \section{Anténní čočky}
@@ -144,7 +156,7 @@ Hlavním úkolem čočky je kolimovat paprsek, neboli šnížit rozbíhavost, v 
 \begin{itemize}
 \item $1$ - Trychtýřová anténa
 \item $2$ - Vystupující kulová vlna z trychtýře
-\item $3$ - Anténní čočka
+\item $3$ - Anténní plano-konvexní čočka
 \item $4$ - Výsledná rovinná vlna
 \item $X$ - Parametr kulovitosti vstupní vlny
 \item $X'$ - Parametr kulovitosti výstupní vlny
@@ -172,9 +184,9 @@ Pro získání těchto parametrů lze použít například proces integrovaný v
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/ExtractBlock}
-\caption{Blokové schéma extrakce dielektrických parametrů}
+\caption{Blokové schéma transmisní/reflexní extrakce dielektrických parametrů}
 \label{fig:ExtractBlock}
 \end{center}
-\end{figure}
+\end{figure} 
 \subsection{Princip extrakce}
 Extrakce parametrů spočívá ve změření přenosu mezi kanály $A$ a $B$ vektorového analyzátoru pro dva geometricky odlišné vzorky materiálu, jehož parametry chceme extrahovat. Jelikož v systému dojde ke změně pouze rozměru neznámého materiálu, tak na základě rozdílného přenosu jsme schopni z naměřených dat extrahovat dielektrické parametry jako relativní permitivitu $\epsilon_r$ a ztrátový činitel $tg_\delta$.
