@@ -30,5 +30,7 @@
 \contentsline {subsubsection}{Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na}{21}
 \contentsline {subsubsection}{Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{23}
 \contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{24}
-\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{24}
-\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{26}
+\contentsline {subsubsection}{Mokr\IeC {\'a} cesta}{24}
+\contentsline {subsubsection}{Elektroformov\IeC {\'a}n\IeC {\'\i }}{25}
+\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{26}
+\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{29}

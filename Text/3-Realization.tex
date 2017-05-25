@@ -46,7 +46,7 @@ Před vlastní generací dat je však nutno vyrvořit profil charakterizující 
 
 Bohužel však při realizaci dalších struktur docházelo k významným komplikacím znemožňující další produkci, zejména k ucpavání trysky \ref{fig:HornFail}.
 
-K těmto skutečnostem pravděpodobně vedlo nadměrné hromadění příměsí v místě zužení trysky způsobující zúst mechanického odporu a nároků na potřebnou sílu k jeho překonání. Vlivem nízké mechanické soudržnosti materiálu a křehkosti způsobeno vysokým procentem plnění poté dochází k prokluzování podávacího mechanismu extruderu a následného výpadku extruze. Další pravděpodobnou příčinou mohl být vlastní průměr filamentu, který pokud je mimo specifikaci ($\pm0.05\,mm$) může dojít k podobné situaci jelikož ne vždy je možné protáhnout předmět větší než rozměry otvoru. 
+K těmto skutečnostem pravděpodobně vedlo nadměrné hromadění příměsí v místě zužení trysky způsobující zúst mechanického odporu a nároků na potřebnou sílu k jeho překonání. Vlivem nízké mechanické soudržnosti materiálu a křehkosti způsobeno vysokým procentem plnění poté dochází k prokluzování podávacího mechanismu extruderu a následného výpadku extruze. Další pravděpodobnou příčinou mohl být vlastní průměr filamentu, který pokud je mimo specifikaci ($\pm$50\,$\mu$m) může dojít k podobné situaci jelikož ne vždy je možné protáhnout předmět větší než rozměry otvoru. 
 
 Tyto komplikace byly částečně eliminovány použitím trysky $D_{nozzle} = 0.6\,mm$, avšak problémy stále přetrvávali a proces byl velmi nespolehlivý a neopakovatelný. Možné další principy eliminace mohou být realizovány například úpravou mechanické části extruderu, která by měla výrazně větší styčnou plochu podávacího mechanismu s filamentem pro možnost vyvinou vyšší tlačnou sílu.
 
@@ -67,9 +67,65 @@ Pro správnou funkci čočky a maximálnímu přiblížení se simulovaných mod
 Pokud toto nebude při realizaci dodrženo, vlivem nehomogenního prostředí pro šíření vlny, obsahující mnoho velmi ostrých rozhraní vzduch/dielektrikum, způsobí velmi odlišné chování a pro jeho dostatečný popis je třeba k téro struktuře přistupovat jako k metamateriálu.
 
 
-
 \section{Pokovení}
+Jelikož již dostupné vodivé filamenty disponují velmi malou vodivostí pro přímé použití, pro možnost následného pokovení však mohou být více než dostačující.
 
+\subsubsection{Mokrá cesta}
+Jako první cesta pro maximalizaci vodivosti produktu byla zvolena metoda elektricky vodivého laku EMI 35\cite{EMIdata}.
+
+Použitý elektrický lak je založen na termoplastickém polymeru s přidaným speciálním měděným pigmentem rozpuštěném ve vhodné ředící složce. Po aplikaci laku v průběhu 24 hodin dojde k postupnému odpaření ředící složky a vznikne tenká vodivá vrstva, o tloušťce v řádu 50\,$\mu$m.
+
+Při zvolení této cesty není nutno realizovat strukturu z vodivého polymeru jelikož přilnutí vodivé látky není podmíněno jeho vodivostí.
+
+
+\begin{figure}[h]
+\begin{center}
+%\includegraphics[width=9.5cm]{pics/HornFail}
+\caption{Realizovaná struktura s následným nánosem EMI 25}
+\label{fig:HornEMI}
+\end{center}
+\end{figure}
+
+\subsubsection{Elektroformování}
+Galvanoplastika je technologie známá a využívaná po mnoho desítek let. Jejím principem je elektroformování (z anglického „electroforming“) geometrických tvarů s využitím elektrochemického vylučování kovových povlaků na primární model. Využívá se principu elektrolýzy, avšak vylučovány jsou vrstvy v od desítek mikrometrů po jednotky milimetrů.\cite{Electroforming}.
+
+Jelikož tato metoda je závislá na principu elektrolýzy, je nutné aby pokovovaný objekt vykazoval dostatečnou vodivost právě pro zajištění nutných podmínek vzniku. Toto může být například realizování například EMI 25 lakem, které mají však svá omezení. Pokud však vstupní vzorek již vykazuje vyšší vodivost, velmi se proces zjednoduší a není třeba využívat komplexních způsobů "zvodivení".
+
+Pokud tedy realizujeme strukturu například z filamentu F-electric, který při prvních testech byl stoprocentně úspěšný, můžeme ji následně přímo pokovit elektroformováním.
+
+Tento postup byl nejprve otestován v laboratorních podmínkách při prvotním testování před započatím této práce. Při výzkumu možností byla navržena základní mřížková struktura pro ověření použitelnosti metody. Dále pak bylo pozorováno velmi gradientní rozložení elektrického potenciálu, které řetězovou reakcí způsobylo nekonzistentní výsledné vrstvy s maximem u přípojného bodu elektrody.
+
+Pro kompenzaci tohoto gradientního rozložení pole je možno využít postupné noření do lázně smeřem k přípojnému bodu za správné rychlosti.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/platingtest}
+\caption{Výsledná testovací struktura s výraně viditělnou nekonzistentní vrstvou}
+\label{fig:platingtest}
+\end{center}
+\end{figure}
+
+Z důvodu toho, že se tento postup jevil jako velmi perspektivní, byla navázána spolupráce se společností Electroforming s.r.o. pro možnost využití produkčních zařízení za účelem pokovení realizované trychtýřové antény z materiálu F-electric.
+
+Výsledkem této spolupráce byl velmi pozitivní z hlediska kvality a přilnavosti nanešené vrstvy (pomineme-li popsaná omezení technologie v 3.1 a přilnavost na hladké povrchy) a její vodivosti. Výsledná struktura při testu ohmického odporu standartním multimetrem CEM DT-61 vykazovala hodnoty pod rozlišovací schopnost.
+
+Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředáním vzájemných znalostí pužitých technologíí došlo k deformaci výsledné struktury. Jelikož materiál použitý pro realizaci struktury disponuje teplotou skelného přechodu $\vartheta_g \simeq 50\,^\circ$$C$ a teploty lázní procesu pokovení tuto teplotu standartně přesahují. Na základě této zkušenosti byla varžena speciálně modifikovaná struktura, viz 3.1, bohužel však vlivem výše uvedených komplikací se ji již nepodařilo realizovat, to ale nevylučuje realizovatelnost, jen vyžaduje delší výzkum samotných materiálů.
+
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/plated/deform}
+\caption{Deformace a nedokonalosti v dutině výsledné pokovené struktury}
+\label{fig:PLdef}
+\end{center}
+\end{figure}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/plated/adhes}
+\caption{Nízká přilnavost k hladkým povrchům}
+\label{fig:PLadh}
+\end{center}
+\end{figure}
 
 
 \section{Měření parametrů}

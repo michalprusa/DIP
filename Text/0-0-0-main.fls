@@ -476,6 +476,15 @@ INPUT ./pics/HornFinal.png
 INPUT pics/HornFail.png
 INPUT ./pics/HornFail.png
 INPUT ./pics/HornFail.png
+INPUT pics/platingtest.png
+INPUT ./pics/platingtest.png
+INPUT ./pics/platingtest.png
+INPUT pics/plated/deform.png
+INPUT ./pics/plated/deform.png
+INPUT ./pics/plated/deform.png
+INPUT pics/plated/adhes.png
+INPUT ./pics/plated/adhes.png
+INPUT ./pics/plated/adhes.png
 INPUT horn.dat
 INPUT horn.dat
 INPUT horn.dat

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.15)  25 MAY 2017 03:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.15)  25 MAY 2017 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1814,42 +1814,77 @@ Package pdftex.def Info: pics/HornFail.png used on input line 55.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [23]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[24 <./pics/HornFail.png>]
+<pics/platingtest.png, id=199, 3220.03pt x 2539.4875pt>
+File: pics/platingtest.png Graphic file (type png)
+
+<use pics/platingtest.png>
+Package pdftex.def Info: pics/platingtest.png used on input line 101.
+(pdftex.def)             Requested size: 270.30118pt x 213.16049pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[25] <pics/plated/deform.png, id=203, 2015.53pt x 1496.59125pt>
+File: pics/plated/deform.png Graphic file (type png)
+
+<use pics/plated/deform.png>
+Package pdftex.def Info: pics/plated/deform.png used on input line 116.
+(pdftex.def)             Requested size: 270.30118pt x 200.7066pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<pics/plated/adhes.png, id=204, 1951.29pt x 1481.535pt>
+File: pics/plated/adhes.png Graphic file (type png)
+
+<use pics/plated/adhes.png>
+Package pdftex.def Info: pics/plated/adhes.png used on input line 124.
+(pdftex.def)             Requested size: 270.30118pt x 205.22066pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
-) [24 <./pics/HornFail.png>] [25]
+) [26 <./pics/platingtest.png>] [27 <./pics/plated/deform.png> <./pics/plated/a
+dhes.png>] [28]
 \openout2 = `4-Conclusion.aux'.
 
  (./4-Conclusion.tex
 Kapitola 5.
-) [26
+) [29
 
 
 
 ]
 \openout2 = `80-bibl.aux'.
 
- (./80-bibl.tex [27
+ (./80-bibl.tex [30
 
 
 
-] (./0-0-0-main.lof [28
+] (./0-0-0-main.lof [31
 
 ])
 \tf@lof=\write6
 \openout6 = `0-0-0-main.lof'.
 
- [29] (./0-0-0-main.lot)
+ [32] (./0-0-0-main.lot)
 \tf@lot=\write7
 \openout7 = `0-0-0-main.lot'.
 
 )
-[30
+[33
 
-] [31
+] [34
 
 ] (./0-0-0-main.aux (./cover.aux) (./contents.aux)
 (./0-Introduction.aux) (./1-Theoretical.aux) (./2-Design.aux)
@@ -1859,10 +1894,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 40393 strings out of 493014
- 1009906 string characters out of 6133351
- 1377318 words of memory out of 5000000
- 43257 multiletter control sequences out of 15000+600000
+ 40415 strings out of 493014
+ 1010338 string characters out of 6133351
+ 1379290 words of memory out of 5000000
+ 43275 multiletter control sequences out of 15000+600000
  15519 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,102p,10361b,2151s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1882,10 +1917,10 @@ ve/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
 6/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/
 texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/te
 xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on 0-0-0-main.pdf (40 pages, 5932739 bytes).
+Output written on 0-0-0-main.pdf (43 pages, 21390349 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
+ 289 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 142 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
