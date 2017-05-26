@@ -95,6 +95,8 @@ Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}
 
 \subsection{Charakterizace struktury}
 
+\subsubsection{Vstupní impedance}
+Důležitým parametrem každé antény je jiejí vstupní impedance, která nám určuje, jakou charakteristickou impedanci by mělo mít napájecí vedení, případně jaký je nutno navrhnout přizpůsobovací obvod. Hlavním cílem při následné aplikaci struktury je minimalizovat ztráty nepřizpůsobením a tím maximalizovat vyzářený výkon.
 
 \subsubsection{Směrovost a zisk}
 Směrovost charakterizuje strukturu z hlediska poměru intenzit vyzářeného výkonu struktury do určitého směru, ku celkovému vyzářenému výkonu do celého prostoru. Jde tedy o schopnost antény "směrovat" výkon do určitého směru. Toto však z principu reciprocity paltí i opačně, tedy pro přijatý výkon. Na základě tohoto lze definovat maximální směrovost antény \ref{eq:hornD}.
@@ -145,14 +147,17 @@ Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k t
 
 \newpage
 \section{Anténní čočky}
-Podobně jako v optice, i zde lze použít čočku, jelikož světlo má z důvodu duality i charakter vlny. Existuje tedy celá řada různých realizací čoček, lze je rozdělit do dvou základních kategorií:
+Podobně jako v optice, i zde lze použít čočku, jelikož světlo má z důvodu duality i charakter vlny.
+Oblasti použití anténních čoček se velmi podobají například parabolickým reflektorům, kde počátek pásma použitelnost se pohybuje kolem 1\,GHz a ideální použití od 3\,GHZ a výše. Samozřejmě že jde aplikovat čočky i při použití nižších pásem, ale je nutno brát v potaz, že na nižších kmitočtech narůstá jejich velikost a hmotnost. 
+
+Existuje tedy celá řada různých realizací čoček, v anténní doméně je lze rozdělit do dvou základních kategorií:
 \begin{itemize}
 \item Zpomalovací, neboli dielektrické
 \item Urychlující, neboli kovové
 \end{itemize}
 
 \subsection{Základní princip}
-Hlavním úkolem čočky je kolimovat paprsek, neboli šnížit rozbíhavost, v případě anténní domény transformovat kulovou vlnu na rovinnou. Jak můžeme vidět na obrázku \ref{fig:hornLens}, kde:
+Hlavním úkolem čočky je kolimovat paprsek, neboli šnížit rozbíhavost, neboli transformovat kulovou vlnu na rovinnou. Jak můžeme vidět na obrázku \ref{fig:hornLens}, kde:
 \begin{itemize}
 \item $1$ - Trychtýřová anténa
 \item $2$ - Vystupující kulová vlna z trychtýře
@@ -168,7 +173,16 @@ Hlavním úkolem čočky je kolimovat paprsek, neboli šnížit rozbíhavost, v 
 \label{fig:hornLens}
 \end{center}
 \end{figure}
-Pro zajištění této funkce je však ale nutno, aby anténní čočka měla rozdílnou relativní permitivitu $\epsilon_r$ než okolní prostředí, ve kterém se vlna šíří. Touto podmínkou je způsobeno zpomalení, nebo zrychlení, vlny a následné kolimaci. Z čehož plyne již výše uvedené rozdělení čoček, viz obrázek \ref{fig:LensTypes}.
+
+\subsection{Charakterizace struktury}
+
+\subsubsection{Permitivita}
+Opět analogií k optickému pohledu na problematiku, kde je hlavním charakterizačním parametrem index lomu, který určuje rychlost šíření vlny v materiálu, ze kterého je čočka vytvořena, je zde nahrazena relativní permitivitou prostředí. Pro zajištění této funkce je však ale nutno, aby anténní čočka měla rozdílnou relativní permitivitu $\epsilon_r$ než okolní prostředí, ve kterém se vlna šíří. Touto podmínkou je způsobeno zpomalení, nebo zrychlení, vlny a následna kolimace. Z čehož plyne již výše uvedené rozdělení čoček, viz obrázek \ref{fig:LensTypes}.
+
+\subsubsection{Ohnisková vzdálenost}
+Dalším nutným parametrem pro splnění kolimace vlny je ohnisková vzdálenost. Tento parametr určuje, v jaké vzdálenosti musí být zdroj kulové vlny, aby došlo k úplné korekci fázové chyby, tedy kolimace.
+
+
 \begin{figure}[h]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/lenstypes}
@@ -179,14 +193,16 @@ Pro zajištění této funkce je však ale nutno, aby anténní čočka měla ro
 
 \section{Extrakce dielektrických parametrů}
 Znalost dielektrických parametrů je klíčová pro návrh vlastních strukur, zejména anténních čoček.
-Pro většinu materiálů jsou tyto parametry již známé, nicméně pokud se rozhodneme strukturu realizovat technologií 3D tisků, vstypuje do tohoto mnoho dalších proměnných které mohou výrazně ovlivnit výsledné parametry produktu, ať už v prospěch, či naopak.
-Pro získání těchto parametrů lze použít například proces integrovaný v CST MW studio, který lze papsat blokovým schématem na obrázku \ref{fig:ExtractBlock}
-\begin{figure}[h]
-\begin{center}
-\includegraphics[width=9.5cm]{pics/ExtractBlock}
-\caption{Blokové schéma transmisní/reflexní extrakce dielektrických parametrů}
-\label{fig:ExtractBlock}
-\end{center}
-\end{figure} 
-\subsection{Princip extrakce}
-Extrakce parametrů spočívá ve změření přenosu mezi kanály $A$ a $B$ vektorového analyzátoru pro dva geometricky odlišné vzorky materiálu, jehož parametry chceme extrahovat. Jelikož v systému dojde ke změně pouze rozměru neznámého materiálu, tak na základě rozdílného přenosu jsme schopni z naměřených dat extrahovat dielektrické parametry jako relativní permitivitu $\epsilon_r$ a ztrátový činitel $tg_\delta$.
+Pro většinu materiálů jsou tyto parametry již známé, nicméně pokud se rozhodneme strukturu realizovat technologií 3D tisků, vstupuje do tohoto mnoho dalších proměnných které mohou výrazně ovlivnit výsledné parametry produktu, ať už v prospěch, či naopak.
+
+Mezi základní metody extrakce patří:
+\begin{itemize}
+\item Reflexní
+\item Transmisní/reflexní
+\item Rezonanční
+\item Planárních obvodů
+\end{itemize}
+Reflexní metoda je založena na principu odrazů na diskontinuitách impedance vedení při přítomnosti neznámého vzorku.
+Rezonanční metody naopak extrahuje parametry na základě charakteristických vlastností vzorku v rezonátoru.
+Transmisní/reflexní metody charakterizují materiál znalosti vzniklých odrazů a transmisí při vložení do vedení .
+Metody planárních obvodů poté využívají stejných principů aplikovaných na planárních mikrovlnných obvodech.

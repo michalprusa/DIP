@@ -13,7 +13,15 @@ Jelikož se vlastnosti zejména vodivých filamentů zásadně liší od běžn�
 Naopak anténní čočka a vzorky pro extrakci parametrů lze realizovat standartním způsobem a je pouze otázkou časové náročnosti procesu a voblou správného materiálu.
 
 \section{3D tisk}
-Realizace veškerých struktur v této práci byla pomocí technologie 3D tisku FDM, kterou jsme si již vysvětlili v kapitole 1. Opět však je možnost zvolit nepřeberné množství tirkáren kterou jsou čím dál více dostupné, v tomto případě se jednalo o Original Prusa i3 MK2. Toto zařízení patří mezi nejpoužívanější stolní 3D tiskárny na světě \cite{3Dhubs} a existuje široká škála již před připravených, řádně otestovaných, tiskových nastavení ze které výrazně urychlí případné ladění pro specifický materiál.
+Realizace veškerých struktur v této práci byla pomocí technologie 3D tisku FDM, kterou jsme si již vysvětlili v kapitole 1. Opět však je možnost zvolit nepřeberné množství tirkáren kterou jsou čím dál více dostupné, v tomto případě se jednalo o Original Prusa i3 MK2 \ref{fig:PrinterMK2}. Toto zařízení patří mezi nejpoužívanější stolní 3D tiskárny na světě \cite{3Dhubs} a existuje široká škála již před připravených, řádně otestovaných, tiskových nastavení ze které výrazně urychlí případné ladění pro specifický materiál.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=7.5cm]{pics/Printer}
+\caption{3D tiskárna Original Prusa i3 MK2}
+\label{fig:PrinterMK2}
+\end{center}
+\end{figure}
 
 \subsubsection{Trychtýřová anténa}
 Jelikož bylo primárním cílem možnost použití produktu přímo bez post-processignu, je tedy nezbytné volit vodivé filamenty. Tyto materiály, jak již víme mají výrazně odlišné vlastnosti od jejich nosičů.
@@ -64,8 +72,17 @@ Realizace anténní čočky je v porovnání s předchozím případem velmi zje
 
 Pro správnou funkci čočky a maximálnímu přiblížení se simulovaných modelů je důležité při generování dat pro technologický proces použít správný typ vnitřní struktury pro zajištění 100\.\% podílu dielektrického materiálu.
 
-Pokud toto nebude při realizaci dodrženo, vlivem nehomogenního prostředí pro šíření vlny, obsahující mnoho velmi ostrých rozhraní vzduch/dielektrikum, způsobí velmi odlišné chování a pro jeho dostatečný popis je třeba k téro struktuře přistupovat jako k metamateriálu.
+Pokud toto nebude při realizaci dodrženo, vlivem nehomogenního prostředí pro šíření vlny, obsahující mnoho velmi ostrých rozhraní vzduch/dielektrikum, způsobí velmi odlišné chování a pro jeho dostatečný popis je třeba k této struktuře přistupovat jako k metamateriálu.
 
+Jelikož rozměry navržené čočky jsou natolik velké, že v kombinaci s vysokou teplotní roztažností materiálu a stoprocentním podílem materiálu v objektu, bylo nutné zvolit materiál PLA, případně PET z důvodu možného použití standartních tiskových nastavení s pouhou změnou procentuální výplně materiálem na 100\,\%.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/LensModel}
+\caption{Realizovaná anténní čočka z materiálu Plasty Mladeč PET transparent}
+\label{fig:LensReal}
+\end{center}
+\end{figure}
 
 \section{Pokovení}
 Jelikož již dostupné vodivé filamenty disponují velmi malou vodivostí pro přímé použití, pro možnost následného pokovení však mohou být více než dostačující.
@@ -75,7 +92,7 @@ Jako první cesta pro maximalizaci vodivosti produktu byla zvolena metoda elektr
 
 Použitý elektrický lak je založen na termoplastickém polymeru s přidaným speciálním měděným pigmentem rozpuštěném ve vhodné ředící složce. Po aplikaci laku v průběhu 24 hodin dojde k postupnému odpaření ředící složky a vznikne tenká vodivá vrstva, o tloušťce v řádu 50\,$\mu$m.
 
-Při zvolení této cesty není nutno realizovat strukturu z vodivého polymeru jelikož přilnutí vodivé látky není podmíněno jeho vodivostí.
+Při zvolení této cesty není nutno realizovat strukturu z vodivého polymeru jelikož přilnutí vodivé látky není podmíněno jeho vodivostí. Byl tedy zvolen materiál $Plasty Mladeč PET transparent$ z důvodu vhodných vlastností při tisku rozměrově blízkých k maximu použité 3D tiskárny.
 
 
 \begin{figure}[h]
@@ -129,6 +146,62 @@ Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředání
 
 
 \section{Měření parametrů}
+Realizované vzorky byly podrobeny dvojicí měření (impedančního přizpůsobení a vyzařovací charakteristiky) pro oveření funkčnosti a srovnání se simulací v CST MW studio.
+
+\subsection{Impedanční přizpůsobení}
+Pro měření impedančního přizpůsobení bylo využito standartní měřící metodiky za použití vektorového analyzátoru Rohde \& Schwarz ZVA67.
+
+Blokové schéma měření je poté na \ref{fig:MatchDia}, kde \textbf{1}- Přechod z koaxiálního vedení na vlnovod R100, \textbf{2}- Kalibrační rovina, \textbf{3}- Měřená anténa.
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/MatchDia}
+\caption{Blokové schéma měření impedančního přizpůsobení}
+\label{fig:MatchDia}
+\end{center}
+\end{figure}
+
+Před samotným měřením parametrů je velmi důležité zkalibrovat systém na vyznačené kalibrační rovině, tedy výstupu vlnovodného přechodu. Toto lze snadno udělat pomocí dvou kalibrů (zkratu, a definovaného úseku vlnovodu), kde za pomocí naměřených dat dojde ke spočítání korekce a následné nastavení kalibrační roviny.
+
+Nutné však dodat, že pro měření definovaného úseku vlnovodu je nutno vlnovod ukončit opět přechodem na koaxiální vedení, ideálně identického od stejného výrobce, ze stejné série, a zapojit do druhého kanálu analyzátoru pro možnost změření charakteristiky úseku vedení v měřícím systému. 
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Angle /\,$^\circ$},
+    ylabel={Amplitude /\,dB},
+    minor tick num=10,
+    minor grid style={gray!25},
+    major grid style={black!50},
+    xmin=8,xmax = 12,
+    grid=both
+]
+\addplot [no markers, thick, blue] table [col sep=tab, y=AbsS11graph] {hornmatch.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=AbsS11emi] {hornMatch.dat};
+\legend{A,B};
+\end{axis}
+\end{tikzpicture}
+\caption{Naměřené impedanční přizpůsobení realizované trychtýřové antény za použití \textbf{A} - F-electric, \textbf{B} - Plasty Mladeč PET transparent + EMI 25}
+\label{fig:Matching}
+\end{figure}
+
+\subsection{Směrová charakteristika}
+Druhým sledovaným parametrem realizovaných produktů byla směrová charakteristika, která byla v závislosti na dostupných technologiích měřena v anténní bezodrazné komoře pomocí automatizovaného měřícího systému NSI2000 pracující na principu uvedeném na schematu \ref{fig:DirectDia}. Kde 1 - Bezodrazná anténní komora, 2 - Rotační mechanismus (točna), CPU - Centrální procesní jednotka, VNA - Vektorový analyzátor, Room Controller - Řídící jednotka točny, R.A. - Známá vysílací anténa, A.U.T. - Měřená anténa, D - Vzdálenost antén.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/DirectDia}
+\caption{Zjednodušené blokové schéma měření směrové charakteristiky}
+\label{fig:DirectDia}
+\end{center}
+\end{figure}
+
+Skutečná realizace použité metody je však komplexnější, pro přiblížení metody je ale zjednodušený model dostačující.
+Základní princip použité metody je založen na vysílání vlny známou anténou a její následné přijímání anténou testovanou za její postupné rotace kolem azimutu za stálého měření přijatého výkonu. Z naměřených hodnot (přijatého výkonu) poté pomocí známého Friisova vztahu \ref{eq:Friis} (kde $P_p$ - Přijatý výkon, $P_v$ - Vysílaný výkon, $G_v$ - Zisk vysílací antény, $G_p$ - Zisk měřené antény, $( \frac{\lambda}{4 \pi R} )^2$ - Ztráty volným prostorem) lze vypočítat zisk měřené antény v každém měřeném úhlu. Je však nutno zajistit, aby antény ležely v ose a v dostatečné vzdálenosti větší než vzdálená zóna, tedy $R \geq \frac{2\,D^2}{\lambda}$ (kde D je nevětší rozměr měřené antény a $\lambda$ vlnová délka), minimalizaci rušení z okolního prostředí a intenzitu odrazů v komoře.
+
+\begin{equation}
+P_p = P_v G_v G_p( \frac{\lambda}{4 \pi R} )^2
+\label{eq:Friis}
+\end{equation}
 
 \begin{figure}
 \begin{tikzpicture}[scale=1.4]
@@ -142,19 +215,21 @@ Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředání
   	ymin=-120, ymax=-60,
     grid=both
 ]
-\addplot [no markers, thick, blue] table [col sep=tab, y=Ae-graph] {horn.dat};
-\addplot [no markers, thick, red] table [col sep=tab, y=Ae-emi] {horn.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=Ae-emi] {horn.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=Ae-graph] {horn.dat};
 \addplot [no markers, thick, green] table [col sep=tab, y=Ae-lens] {horn.dat};
+\legend{F-electric, PET+EMI 25, F-electric+PET lens};
 \end{axis}
 \end{tikzpicture}
-\caption{Řez naměřené vyzařovací charakteristiky realizovaného trychtýře z materiálu F-electric v E rovině}
+\label{fig:FarfieldsE}
+\caption{Naměřené vyzařovací charakteristiky realizovaných trychtýřů v E rovině}
 \end{figure}
 
 \begin{figure}
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Angle /\,$^\circ$},
-    ylabel={Amplitude /\,dB},
+    ylabel={$P_p$ /\,dB},
     minor tick num=10,
     minor grid style={gray!25},
   	major grid style={black!50},
@@ -162,13 +237,87 @@ Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředání
   	ymin=-120, ymax=-60,
     grid=both
 ]
-\addplot [no markers, thick, blue] table [col sep=tab, y=Ah-graph] {horn.dat};
-\addplot [no markers, thick, red] table [col sep=tab, y=Ah-emi] {horn.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=Ah-emi] {horn.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=Ah-graph] {horn.dat};
 \addplot [no markers, thick, green] table [col sep=tab, y=Ah-lens] {horn.dat};
+\legend{F-electric, PET+EMI 25, F-electric+PET lens};
 \end{axis}
 \end{tikzpicture}
-\caption{Řez vyzařovací charakteristiky v H rovině}
+\label{fig:FarfieldsH}
+\caption{Naměřené vyzařovací charakteristiky realizovaných trychtýřů v H rovině}
 \end{figure}
 
+\subsection{Extrakce parametrů}
+Jak již bylo zmíněno, pro extrakci parametrů byla zvolena metoda transmisní/reflexní, viz blokové schéma \ref{fig:ExtractBlock}. Měření dat pro následnou spolehlivou extrakci je ale velmi obtížné realizovat se stoprocentní úspěšností prvního pokusu. Zejména z důvodu neznalosti parametrů materiálu (to je cílem celého snažení) a nutnosti splnit minimální 3\,dB útlum vložených vzorků do vlnovodu a zároveň respektovat omezení použité realizační technologie, fyzikální parametry materiálů a samozřejmě časovou náročnost.
+
+Pro prvnotní měření byly zvoleny vzorky délek 49 a 69\,mm na základě dostupných vlnovodů pro splnění veškerých nutných podmínek za účelem získání použitelných výsledků. Jelikož však útlum nejdelšího vzorku byl naměřen v okolí 1.5\,dB z čehož lze odhadnout minimální délku vzorku 138\,mm. 
+
+Upravené vzorky bohužel nemohli být realizovány v minimálních odhadovaných délkách a bylo nutné zvolit na základě dostupných úseků vlnovodu, pro finální realizaci tedy 149 a 199\,mm. Na základě těchto vzorků již bylo možné realizovat extrakci dielektrických parametrů, jelikož útlum ktrátkého úseku vykazoval útlum $>$3.5\,dB.
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Frequency /\,GHz},
+    ylabel={Attenuation /\,dB},
+    minor tick num=10,
+    minor grid style={gray!25},
+    major grid style={black!50},
+    xmin=8,xmax = 12,
+    ymin=-6, ymax=0,
+    grid=both
+]
+\addplot [no markers, thick, red] table [col sep=tab, y=Apet149] {ParamExtract.dat};
+\addplot [no markers, thick, orange] table [col sep=tab, y=Apet199] {ParamExtract.dat};
+\addplot [no markers, thick, green] table [col sep=tab, y=Apla149] {ParamExtract.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=Apla199] {ParamExtract.dat};
+\legend{PET 149\,mm,PET 199\,mm,PLA 149\,mm,PLA 199\,mm};
+\end{axis}
+\end{tikzpicture}
+\label{fig:Attmeasure}
+\caption{Naměřené útlumy vzorků pro extrakci parametrů}
+\end{figure}
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Frequency /\,GHz},
+    ylabel={$\real{\epsilon_r}$ /\,-},
+    minor tick num=10,
+    minor grid style={gray!25},
+    major grid style={black!50},
+    xmin=8,xmax = 12,
+%    ymin=-6, ymax=0,
+    grid=both
+]
+\addplot [no markers, thick, red] table [col sep=tab, y=EpsRePLA] {ExtractRes.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=EpsRePET] {ExtractRes.dat};
+\legend{PLA, PET};
+\end{axis}
+\end{tikzpicture}
+\label{fig:EpsReMeas}
+\caption{Výsledky extrakce komplexní permitivity materiálů Plasty Mladeč transparent PLA a PET}
+\end{figure}
+
+
+\begin{figure}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel={Attenuation /\,dB},
+    ylabel={Loss tangent /\,-},
+    minor tick num=10,
+    minor grid style={gray!25},
+    major grid style={black!50},
+    xmin=8,xmax = 12,
+%    ymin=-6, ymax=0,
+    grid=both
+]
+\addplot [no markers, thick, red] table [col sep=tab, y=TgdPLA] {ExtractRes.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=TgdPET] {ExtractRes.dat};
+\legend{PLA, PET};
+\end{axis}
+\end{tikzpicture}
+\label{fig:TgdMeas}
+\caption{Výsledky extrakce ztrátového činitele materiálů Plasty Mladeč transparent PLA a PET}
+\end{figure}
 
 

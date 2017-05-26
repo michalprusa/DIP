@@ -16,8 +16,10 @@
 \contentsline {subsubsection}{F\IeC {\'a}zov\IeC {\'a} chyba}{8}
 \contentsline {section}{\numberline {2.3}Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ky}{9}
 \contentsline {subsection}{\numberline {2.3.1}Z\IeC {\'a}kladn\IeC {\'\i } princip}{9}
-\contentsline {section}{\numberline {2.4}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{10}
-\contentsline {subsection}{\numberline {2.4.1}Princip extrakce}{11}
+\contentsline {subsection}{\numberline {2.3.2}Charakterizace struktury}{10}
+\contentsline {subsubsection}{Permitivita}{10}
+\contentsline {subsubsection}{Ohniskov\IeC {\'a} vzd\IeC {\'a}lenost}{11}
+\contentsline {section}{\numberline {2.4}Extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}{11}
 \contentsline {chapter}{\numberline {3}N\IeC {\'a}vrh}{13}
 \contentsline {section}{\numberline {3.1}Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na}{13}
 \contentsline {subsubsection}{Vstupn\IeC {\'\i } model ant\IeC {\'e}ny}{13}
@@ -28,9 +30,12 @@
 \contentsline {chapter}{\numberline {4}Realizace}{21}
 \contentsline {section}{\numberline {4.1}3D tisk}{21}
 \contentsline {subsubsection}{Trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na}{21}
-\contentsline {subsubsection}{Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{23}
-\contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{24}
-\contentsline {subsubsection}{Mokr\IeC {\'a} cesta}{24}
-\contentsline {subsubsection}{Elektroformov\IeC {\'a}n\IeC {\'\i }}{25}
-\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{26}
-\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{29}
+\contentsline {subsubsection}{Ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka}{24}
+\contentsline {section}{\numberline {4.2}Pokoven\IeC {\'\i }}{25}
+\contentsline {subsubsection}{Mokr\IeC {\'a} cesta}{25}
+\contentsline {subsubsection}{Elektroformov\IeC {\'a}n\IeC {\'\i }}{26}
+\contentsline {section}{\numberline {4.3}M\IeC {\v e}\IeC {\v r}en\IeC {\'\i } parametr\IeC {\r u}}{27}
+\contentsline {subsection}{\numberline {4.3.1}Impedan\IeC {\v c}n\IeC {\'\i } p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i }}{27}
+\contentsline {subsection}{\numberline {4.3.2}Sm\IeC {\v e}rov\IeC {\'a} charakteristika}{28}
+\contentsline {subsection}{\numberline {4.3.3}Extrakce parametr\IeC {\r u}}{29}
+\contentsline {chapter}{\numberline {5}Z\IeC {\'a}v\IeC {\v e}r}{34}

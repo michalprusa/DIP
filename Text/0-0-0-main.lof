@@ -9,7 +9,6 @@
 \contentsline {figure}{\numberline {2-7}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e} pro r\IeC {\r u}zn\IeC {\'e} \IeC {\'u}hly otev\IeC {\v r}en\IeC {\'\i } pyramid\IeC {\'a}ln\IeC {\'\i }ho trycht\IeC {\'y}\IeC {\v r}e}}{10}
 \contentsline {figure}{\numberline {2-8}{\ignorespaces Princip ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ky}}{11}
 \contentsline {figure}{\numberline {2-9}{\ignorespaces Typy ant\IeC {\'e}nn\IeC {\'\i }ch \IeC {\v c}o\IeC {\v c}ek. 1 - Zpomaluj\IeC {\'\i }c\IeC {\'\i }, 2 - Zrychluj\IeC {\'\i }c\IeC {\'\i }}}{11}
-\contentsline {figure}{\numberline {2-10}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma transmisn\IeC {\'\i }/reflexn\IeC {\'\i } extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}}{12}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3-1}{\ignorespaces Vstupn\IeC {\'\i } model ant\IeC {\'e}ny}}{14}
 \contentsline {figure}{\numberline {3-2}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e}, kde: \textbf {A}-$p=140\,mm$, \textbf {B}-$p=140\,mm$; $plth=1.45\,mm$, \textbf {C}-$p=140\,mm$; $plth=0.9\,mm$, \textbf {D}-$p=140\,mm$; $plth=1.45\,mm$; $G=133.3\,S/m$}}{16}
@@ -21,12 +20,20 @@
 \contentsline {figure}{\numberline {3-8}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model \IeC {\v c}o\IeC {\v c}ky}}{20}
 \contentsline {figure}{\numberline {3-9}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} \IeC {\v c}o\IeC {\v c}ky}}{20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod realizovan\IeC {\'y} technologi\IeC {\'\i } 3D tisku za pou\IeC {\v z}it\IeC {\'\i } F-electric filamentu}}{23}
-\contentsline {figure}{\numberline {4-2}{\ignorespaces D\IeC {\r u}sledek ucpav\IeC {\'a}n\IeC {\'\i } trysky v pr\IeC {\r u}b\IeC {\v e}hu tisku modelu}}{24}
-\contentsline {figure}{\numberline {4-3}{\ignorespaces Realizovan\IeC {\'a} struktura s n\IeC {\'a}sledn\IeC {\'y}m n\IeC {\'a}nosem EMI 25}}{25}
-\contentsline {figure}{\numberline {4-4}{\ignorespaces V\IeC {\'y}sledn\IeC {\'a} testovac\IeC {\'\i } struktura s v\IeC {\'y}ran\IeC {\v e} vidit\IeC {\v e}lnou nekonzistentn\IeC {\'\i } vrstvou}}{26}
-\contentsline {figure}{\numberline {4-5}{\ignorespaces Deformace a nedokonalosti v dutin\IeC {\v e} v\IeC {\'y}sledn\IeC {\'e} pokoven\IeC {\'e} struktury}}{27}
-\contentsline {figure}{\numberline {4-6}{\ignorespaces N\IeC {\'\i }zk\IeC {\'a} p\IeC {\v r}ilnavost k hladk\IeC {\'y}m povrch\IeC {\r u}m}}{27}
-\contentsline {figure}{\numberline {4-7}{\ignorespaces \IeC {\v R}ez nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'e}ho trycht\IeC {\'y}\IeC {\v r}e z materi\IeC {\'a}lu F-electric v E rovin\IeC {\v e}}}{28}
-\contentsline {figure}{\numberline {4-8}{\ignorespaces \IeC {\v R}ez vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky v H rovin\IeC {\v e}}}{28}
+\contentsline {figure}{\numberline {4-1}{\ignorespaces 3D tisk\IeC {\'a}rna Original Prusa i3 MK2}}{22}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod realizovan\IeC {\'y} technologi\IeC {\'\i } 3D tisku za pou\IeC {\v z}it\IeC {\'\i } F-electric filamentu}}{23}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces D\IeC {\r u}sledek ucpav\IeC {\'a}n\IeC {\'\i } trysky v pr\IeC {\r u}b\IeC {\v e}hu tisku modelu}}{24}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces Realizovan\IeC {\'a} ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka z materi\IeC {\'a}lu Plasty Mlade\IeC {\v c} PET transparent}}{25}
+\contentsline {figure}{\numberline {4-5}{\ignorespaces Realizovan\IeC {\'a} struktura s n\IeC {\'a}sledn\IeC {\'y}m n\IeC {\'a}nosem EMI 25}}{25}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces V\IeC {\'y}sledn\IeC {\'a} testovac\IeC {\'\i } struktura s v\IeC {\'y}ran\IeC {\v e} vidit\IeC {\v e}lnou nekonzistentn\IeC {\'\i } vrstvou}}{27}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces Deformace a nedokonalosti v dutin\IeC {\v e} v\IeC {\'y}sledn\IeC {\'e} pokoven\IeC {\'e} struktury}}{28}
+\contentsline {figure}{\numberline {4-8}{\ignorespaces N\IeC {\'\i }zk\IeC {\'a} p\IeC {\v r}ilnavost k hladk\IeC {\'y}m povrch\IeC {\r u}m}}{29}
+\contentsline {figure}{\numberline {4-9}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma m\IeC {\v e}\IeC {\v r}en\IeC {\'\i } impedan\IeC {\v c}n\IeC {\'\i }ho p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i }}}{29}
+\contentsline {figure}{\numberline {4-10}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} impedan\IeC {\v c}n\IeC {\'\i } p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i } realizovan\IeC {\'e} trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny za pou\IeC {\v z}it\IeC {\'\i } \textbf {A} - F-electric, \textbf {B} - Plasty Mlade\IeC {\v c} PET transparent + EMI 25}}{30}
+\contentsline {figure}{\numberline {4-11}{\ignorespaces Zjednodu\IeC {\v s}en\IeC {\'e} blokov\IeC {\'e} sch\IeC {\'e}ma m\IeC {\v e}\IeC {\v r}en\IeC {\'\i } sm\IeC {\v e}rov\IeC {\'e} charakteristiky}}{30}
+\contentsline {figure}{\numberline {4-12}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'y}ch trycht\IeC {\'y}\IeC {\v r}\IeC {\r u} v E rovin\IeC {\v e}}}{31}
+\contentsline {figure}{\numberline {4-13}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'y}ch trycht\IeC {\'y}\IeC {\v r}\IeC {\r u} v H rovin\IeC {\v e}}}{31}
+\contentsline {figure}{\numberline {4-14}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} \IeC {\'u}tlumy vzork\IeC {\r u} pro extrakci parametr\IeC {\r u}}}{32}
+\contentsline {figure}{\numberline {4-15}{\ignorespaces V\IeC {\'y}sledky extrakce komplexn\IeC {\'\i } permitivity materi\IeC {\'a}l\IeC {\r u} Plasty Mlade\IeC {\v c} transparent PLA a PET}}{32}
+\contentsline {figure}{\numberline {4-16}{\ignorespaces V\IeC {\'y}sledky extrakce ztr\IeC {\'a}tov\IeC {\'e}ho \IeC {\v c}initele materi\IeC {\'a}l\IeC {\r u} Plasty Mlade\IeC {\v c} transparent PLA a PET}}{33}
 \addvspace {10\p@ }
