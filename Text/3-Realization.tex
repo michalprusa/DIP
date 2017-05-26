@@ -46,7 +46,7 @@ Před vlastní generací dat je však nutno vyrvořit profil charakterizující 
 
 \begin{figure}[h]
 \begin{center}
-\includegraphics[width=9.5cm]{pics/HornFinal}
+\includegraphics[width=9.5cm]{pics/HornReal}
 \caption{Výsledný model trychtýřové antény včetně příruby na vlnovod realizovaný technologií 3D tisku za použití F-electric filamentu}
 \label{fig:HornRealFe}
 \end{center}
@@ -204,7 +204,7 @@ P_p = P_v G_v G_p( \frac{\lambda}{4 \pi R} )^2
 \end{equation}
 
 \begin{figure}
-\begin{tikzpicture}[scale=1.4]
+\begin{tikzpicture}
 \begin{axis}[
     xlabel={Angle /\,$^\circ$},
     ylabel={Amplitude /\,dB},
@@ -276,6 +276,19 @@ Upravené vzorky bohužel nemohli být realizovány v minimálních odhadovanýc
 \label{fig:Attmeasure}
 \caption{Naměřené útlumy vzorků pro extrakci parametrů}
 \end{figure}
+
+
+Vlastní realizace početního algoritmu poté probíhá prostým vložením dat do automatizovaného makra v CST MW studio. Aby však poskytnuté výsledky odpovídali realitě, je nezbytně důležitá korektní konfigurace vstupních parametrů \ref{fig:CSTscript}.
+
+
+\begin{figure}[h!]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/CSTscript}
+\caption{Náhled vhodně nakonfigurovaného uživatelského rozhraní makra v CST MW studio}
+\label{fig:CSTscript}
+\end{center}
+\end{figure}
+
 
 \begin{figure}
 \begin{tikzpicture}

@@ -15,7 +15,7 @@ Technologií existuje několik a s postupným rozšiřováním možností aplika
 Fused deposition modeling, zkráceně FDM, případně FFF (Fused Filament Fabrication) je technologie 3D tisku využívající možnost opakovatelného přechodu mezi skupenstvími působením energie ve formě tepla termoplastických polymerních materiálů. Základní materiál ve formě filamentu (drátu) definovaného průměru, zpravidla 1.75\,mm, nebo 2.85\,mm, je vtlačován do předehřáte trysky silou $F$. Pokud teplota horké zóny trysky převyšuje teplotu skelného přechodu vtlačovaného materiálu dojde k dramatickému oslabení mezimolekulárních sil a vzniku viskózní kapaliny. Jelikož je průměr trysky velmi blízký průměru vtlačovaného filamentu, s vyjímkou jejího hrdla které je násobně menší, zpravidla 0.4\,mm, jediná možnost jak uvolnit vnitřní tlak je vytlačení kapaliny hrdlem. Jakmile teplota vytlačené kapaliny klesne pod teplotu skelného přechodu dojde k obnovení mezimolekulárních sil a materiál je opět pevnou látkou. Tento jev je obecně znám pod názvem extruze.
 Toto nám však nestačí pro vytvoření trojrozměrného objektu dle zadání. Je tedy třeba extrudér osadit na zařízení zajišťující pohyb v trojrozměrném prostoru.
 Proces tisku pak probíhá pohybem extrudéru po předem definovaných trasách, zpravidla vždy v jedné vrstvě, a vytlačováním materiálu dle potřeby. Celý proces se poté opakuje dokud není dokončen zadaný objekt.
-\begin{figure}[h]
+\begin{figure}[h!]
 \begin{center}
 \includegraphics[width=7.5cm]{pics/fdm}
 \caption{Princip technologie FDM. 1 - Tisková podložka, 2 - Již hotové vrstvy výsledného objektu, 3 - Horká zóna trysky, 4 - Tryska, 5 - Filament, F - Vtlačovací síla}
@@ -25,6 +25,7 @@ Proces tisku pak probíhá pohybem extrudéru po předem definovaných trasách,
 
 \subsection{Vlastnosti technologie}
 3D tisk, podobně jako jiné technologie má specifické vlastnosti, které ovlivňují charakter výsledného produktu. Ovlivněných vlastnostností je velmi mnoho, pro naši aplikaci se zaměříme na dielektrické (chceme vědět jaké bude mít výsledný produkt dielektrické vlastnosti, abychom ho byly schopni popsat, navrhovat a simulovat) a mechanické (produkt musí být možno pevně a stabilě ukotvit na pozici, a musí do něj být možno navázat elektromagnetickou vlnu známým způsobem). Je však nutno brát v potaz, že má i celou řadu vlastností, kterých lze využít pro vytvoření složitých struktur, které by nebylo možné jinými technologiemi jednoduše realizovat, například vnitřní uzavřené struktury. Některé z nich jsou zatím pro dostatečně přesné aproximace dosažitelné v reálném časovém horizontu zcela náhodné, jiné zase přímo ovlivňují námi velmi žádané parametry a můžeme je takto řídit.
+
 \subsubsection{Vrstvy}
 Pokud budeme uvažovat ideální podmínky (absolutně čisté prostředí bez kontaminace nechtěnými látkami, ideální filament, rovnoměrnou kontrolovanou distribuci tepla, atd...) stále je objekt tvořem z vrstev. Jelikož vždy vrtva, na které se aktuálně nanáší, je dokonce pod teplotou skelného přechodu, pro odstranění deformace vlivem sil jako gravitace, či tepelné roztažnosti, nedojde k dokonalému spojení polymerních řetězců mezi vrtvami. Při laminaci vrstev může také dojít ke kontaminaci produktu, jako například prachovými částicemi či vzduchovými kapsami. Toto se však dá zanedbat jelikož lze snadno stabilizovat okolní prostředí a minimalizovat vliv. 
 Hlavní ovlivněné vlastnosti, pro naši aplikaci podstatné, jsou mechanické. Vždy je v ose vrstev rozložení mezne plasticity neuniformní, dochází tedy k plastické deformaci významně v těchto oblastech, což někdy může být problém z důvodu nutnosti splnění možnosti upevnění a realizovatelnosti produktu.
@@ -64,7 +65,45 @@ Trychtýřová anténa patří mezi základní anténní struktury využívané 
 Tento typ antény byl zvolen zejména kvůli své jednoduchosti a požadavkům na technologii výroby.
 
 \subsection{Základní princip}
-Trychtýřová antená není nic jiného, než postupně se rozšiřující ústí vlnovodu v daných směrech. V případě pyramidálního trychtýře dochází k otevření jak v $E$, tak $H$ rovině. Postupné otevření trychtýře lze považovat za impedanční transformátor zajišťující, v ideálním případě bezodrazné, vyvázání vlny do volného prostoru v definovaném pásmu.
+Trychtýřová antená není nic jiného, než postupně se rozšiřující ústí vlnovodu v daných směrech. Postupné otevření trychtýře lze považovat za impedanční transformátor zajišťující, v ideálním případě bezodrazné, vyvázání vlny do volného prostoru v definovaném pásmu \ref{fig:hornPrinciple}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/HornPrinciple}
+\caption{Princip trychtýřové antény}
+\label{fig:hornPrinciple}
+\end{center}
+\end{figure}
+
+Na základě roviny, ve kterém dochází k otevření vlnovodu je lze rozdělit do následujících základních kategorií:
+\begin{itemize}
+\item E-rovinné (v rovině E)
+\item H-rovinné (v rovině H)
+\item Pyramidální (v obou rovinách)
+\item Kónické ( speciální případ rozšiřujícího-se kruhového vnovodu)
+\end{itemize}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/HornTypes}
+\caption{Typické provedení trychtýřových antén \cite{ConstantineTheory}}
+\label{fig:horn}
+\end{center}
+\end{figure}
+
+Každá kategorie má své specifické vlastnosti, například z hlediska směrových charakteristik. Pokud dojde k otevření pouze v rovině H, dojde k významnému potlačení postranních laloků a zároveň snížení šířky svazku v porovnání se směrem otevření pouze v rovině E \ref{fig:hornComp}.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/HornTypes}
+\caption{Porovnání směrových charakteristik trychtýřové antény s otevřením v rovině a) E , b) H \cite{ConstantineTheory}}
+\label{fig:hornComp}
+\end{center}
+\end{figure}
+
+\subsubsection{Pyramidální trychtýřová anténa}
+Jedná se o nejrozšířenější typ trychtýřové antény, u které, jak již víme, dochází k otevření v obou rovinách. Výsledná vyzařovací charakteristika je pak kombinací E-trychtýře a H-trychtýře, kde dojde v ideálním případě ke shodě v obou rovinách. Není však ale pravidlo, aby se maximum směrovosti nacházelo v ose antény jako v předchozích případech.
+
 Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}.
 
 \begin{figure}[h]

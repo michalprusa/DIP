@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.15)  26 MAY 2017 07:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.15)  26 MAY 2017 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1255,8 +1255,11 @@ ts.polar.code.tex)
 
 Writing nomenclature file 0-0-0-main.nlo
 (./0-0-0-main.aux (./cover.aux) (./contents.aux) (./0-Introduction.aux)
-(./1-Theoretical.aux) (./2-Design.aux) (./3-Realization.aux)
-(./4-Conclusion.aux) (./80-bibl.aux))
+(./1-Theoretical.aux
+
+LaTeX Warning: Label `fig:horn' multiply defined.
+
+) (./2-Design.aux) (./3-Realization.aux) (./4-Conclusion.aux) (./80-bibl.aux))
 \openout1 = `0-0-0-main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -1507,13 +1510,7 @@ Package pdftex.def Info: zadani-nosign.pdf, page1 used on input line 14.
 [6
 
 
-] (./0-abstract.tex
-Overfull \hbox (6.88898pt too wide) in paragraph at lines 16--18
-\T1/cmr/m/n/10.95 trychtý°ovými an-té-nami a je-jich návrhem, následn¥ ste-jným
- pos-tu-pem dielek-trick-ými £o£kami.
- []
-
-) [7
+] (./0-abstract.tex) [7
 
 ])
 \openout2 = `contents.aux'.
@@ -1530,7 +1527,8 @@ Overfull \hbox (6.88898pt too wide) in paragraph at lines 16--18
 ) [9]
 \openout2 = `0-Introduction.aux'.
 
- (./0-Introduction.tex
+
+(./0-Introduction.tex
 Kapitola 1.
 )
 Overfull \hbox (33.26611pt too wide) in paragraph at lines 14--81
@@ -1557,7 +1555,7 @@ Package pdftex.def Info: pics/fdm.png used on input line 20.
 
 
 ]
-Overfull \hbox (21.61366pt too wide) in paragraph at lines 29--32
+Overfull \hbox (21.61366pt too wide) in paragraph at lines 30--33
 \T1/cmr/m/n/10.95 Pokud budeme uvaºo-vat ideální pod-mínky (ab-so-lutn¥ £isté p
 rost°edí bez kon-tam-i-nace necht¥nými
  []
@@ -1566,7 +1564,7 @@ rost°edí bez kon-tam-i-nace necht¥nými
 File: pics/fillcompare.png Graphic file (type png)
 
 <use pics/fillcompare.png>
-Package pdftex.def Info: pics/fillcompare.png used on input line 40.
+Package pdftex.def Info: pics/fillcompare.png used on input line 41.
 (pdftex.def)             Requested size: 241.84842pt x 128.08899pt.
 
 
@@ -1575,74 +1573,89 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <pics/6layer.png, id=100, 1057.9525pt x 693.59125pt>
 File: pics/6layer.png Graphic file (type png)
  <use pics/6layer.png>
-Package pdftex.def Info: pics/6layer.png used on input line 47.
+Package pdftex.def Info: pics/6layer.png used on input line 48.
 (pdftex.def)             Requested size: 241.84842pt x 158.54897pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [4] [5 <./pics/fillcompare.png> <./pics/6layer.png>]
-<pics/horn.png, id=110, 747.79375pt x 323.2075pt>
-File: pics/horn.png Graphic file (type png)
- <use pics/horn.png>
-Package pdftex.def Info: pics/horn.png used on input line 72.
-(pdftex.def)             Requested size: 270.30118pt x 116.82805pt.
+<pics/HornPrinciple.png, id=110, 1240.635pt x 402.50375pt>
+File: pics/HornPrinciple.png Graphic file (type png)
+
+<use pics/HornPrinciple.png>
+Package pdftex.def Info: pics/HornPrinciple.png used on input line 72.
+(pdftex.def)             Requested size: 270.30118pt x 87.69125pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/hornEH.png, id=111, 6287.49pt x 2259.44125pt>
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 80.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 80.
+ [6]
+<pics/HornTypes.png, id=114, 1091.57813pt x 880.28876pt>
+File: pics/HornTypes.png Graphic file (type png)
+
+<use pics/HornTypes.png>
+Package pdftex.def Info: pics/HornTypes.png used on input line 88.
+(pdftex.def)             Requested size: 270.30118pt x 217.97624pt.
+File: pics/HornTypes.png Graphic file (type png)
+ <use pics/HornTypes.png>
+Package pdftex.def Info: pics/HornTypes.png used on input line 98.
+(pdftex.def)             Requested size: 270.30118pt x 217.97624pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./pics/HornPrinciple.png> <./pics/HornTypes.png>]
+<pics/horn.png, id=121, 747.79375pt x 323.2075pt>
+File: pics/horn.png Graphic file (type png)
+ <use pics/horn.png>
+Package pdftex.def Info: pics/horn.png used on input line 111.
+(pdftex.def)             Requested size: 270.30118pt x 116.82805pt.
+
+<pics/hornEH.png, id=122, 6287.49pt x 2259.44125pt>
 File: pics/hornEH.png Graphic file (type png)
  <use pics/hornEH.png>
-Package pdftex.def Info: pics/hornEH.png used on input line 80.
+Package pdftex.def Info: pics/hornEH.png used on input line 119.
 (pdftex.def)             Requested size: 426.79134pt x 153.35037pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 86.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 86.
- [6] [7 <./pics/horn.png> <./pics/hornEH.png>]
-<pics/hornErr.png, id=123, 172.4844pt x 165.2574pt>
+[8 <./pics/horn.png>] [9 <./pics/hornEH.png>]
+<pics/hornErr.png, id=133, 172.4844pt x 165.2574pt>
 File: pics/hornErr.png Graphic file (type png)
  <use pics/hornErr.png>
-Package pdftex.def Info: pics/hornErr.png used on input line 118.
+Package pdftex.def Info: pics/hornErr.png used on input line 159.
 (pdftex.def)             Requested size: 184.9429pt x 177.20946pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 PGFPlots: reading {hornSim.dat}
 PGFPlots: reading {hornSim.dat}
 PGFPlots: reading {hornSim.dat}
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (18.80133pt too wide) in paragraph at lines 141--142
+Overfull \hbox (18.80133pt too wide) in paragraph at lines 182--183
 [][] 
  []
 
-[8] [9 <./pics/hornErr.png>] <pics/lens.png, id=132, 550.9383pt x 327.8649pt>
+[10 <./pics/hornErr.png>] [11]
+<pics/lens.png, id=143, 550.9383pt x 327.8649pt>
 File: pics/lens.png Graphic file (type png)
-
-<use pics/lens.png>
-Package pdftex.def Info: pics/lens.png used on input line 169.
+ <use pics/lens.png>
+Package pdftex.def Info: pics/lens.png used on input line 210.
 (pdftex.def)             Requested size: 270.30118pt x 160.86531pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10] <pics/lenstypes.png, id=137, 590.9277pt x 314.6154pt>
+<pics/lenstypes.png, id=144, 590.9277pt x 314.6154pt>
 File: pics/lenstypes.png Graphic file (type png)
-
-<use pics/lenstypes.png>
-Package pdftex.def Info: pics/lenstypes.png used on input line 186.
+ <use pics/lenstypes.png>
+Package pdftex.def Info: pics/lenstypes.png used on input line 227.
 (pdftex.def)             Requested size: 270.30118pt x 143.91353pt.
- [11 <./pics/lens.png> <./pics/lenstypes.png>])
-[12]
+
+[12 <./pics/lens.png>]) [13 <./pics/lenstypes.png>]
 \openout2 = `2-Design.aux'.
 
  (./2-Design.tex
@@ -1659,24 +1672,24 @@ Overfull \hbox (1.74348pt too wide) in paragraph at lines 10--11
 -duktu p°ed jeho moºným pouºitím. 
  []
 
-[13
+[14
 
 
 
-] <pics/HornOptimal.png, id=147, 574.145pt x 321.2pt>
+] <pics/HornOptimal.png, id=154, 574.145pt x 321.2pt>
 File: pics/HornOptimal.png Graphic file (type png)
 
 <use pics/HornOptimal.png>
 Package pdftex.def Info: pics/HornOptimal.png used on input line 27.
 (pdftex.def)             Requested size: 270.30118pt x 151.21887pt.
- [14 <./pics/HornOptimal.png>]
+ [15 <./pics/HornOptimal.png>]
 PGFPlots: reading {hornSim.dat}
 PGFPlots: reading {hornSim.dat}
 PGFPlots: reading {hornSim.dat}
 PGFPlots: reading {hornSim.dat}
 Missing character: There is no ; in font nullfont!
 
-<pics/HornFinal.png, id=152, 1148.29pt x 650.43pt>
+<pics/HornFinal.png, id=159, 1148.29pt x 650.43pt>
 File: pics/HornFinal.png Graphic file (type png)
  <use pics/HornFinal.png>
 Package pdftex.def Info: pics/HornFinal.png used on input line 81.
@@ -1685,7 +1698,7 @@ Package pdftex.def Info: pics/HornFinal.png used on input line 81.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/HornAssy.png, id=153, 861.2175pt x 595.22375pt>
+<pics/HornAssy.png, id=160, 861.2175pt x 595.22375pt>
 File: pics/HornAssy.png Graphic file (type png)
  <use pics/HornAssy.png>
 Package pdftex.def Info: pics/HornAssy.png used on input line 96.
@@ -1697,21 +1710,21 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 PGFPlots: reading {hornSim.dat}
 PGFPlots: reading {hornSim.dat}
 Missing character: There is no ; in font nullfont!
-[15] [16]
+[16] [17]
 Overfull \hbox (0.97795pt too wide) in paragraph at lines 126--127
 \T1/cmr/m/n/10.95 návrh an-ténní £o£ky, je nezbytné ma-ter-iál charak-ter-i-zo-
 vat v pouºitém kmi-to£tu, tedy 10GHz. 
  []
 
-[17 <./pics/HornFinal.png> <./pics/HornAssy.png>]
-<pics/ExtractBlock.png, id=166, 369.5406pt x 153.9351pt>
+[18 <./pics/HornFinal.png> <./pics/HornAssy.png>]
+<pics/ExtractBlock.png, id=173, 369.5406pt x 153.9351pt>
 File: pics/ExtractBlock.png Graphic file (type png)
 
 <use pics/ExtractBlock.png>
 Package pdftex.def Info: pics/ExtractBlock.png used on input line 132.
 (pdftex.def)             Requested size: 270.30118pt x 112.59717pt.
- [18 <./pics/ExtractBlock.png>]
-<pics/LensDesign.png, id=170, 284.0211pt x 73.7154pt>
+ [19 <./pics/ExtractBlock.png>]
+<pics/LensDesign.png, id=177, 284.0211pt x 73.7154pt>
 File: pics/LensDesign.png Graphic file (type png)
 
 <use pics/LensDesign.png>
@@ -1721,7 +1734,7 @@ Package pdftex.def Info: pics/LensDesign.png used on input line 163.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/LensModel.png, id=171, 1091.07625pt x 311.1625pt>
+<pics/LensModel.png, id=178, 1091.07625pt x 311.1625pt>
 File: pics/LensModel.png Graphic file (type png)
 
 <use pics/LensModel.png>
@@ -1731,7 +1744,7 @@ Package pdftex.def Info: pics/LensModel.png used on input line 171.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/HornFinalLens.png, id=172, 1155.31625pt x 825.0825pt>
+<pics/HornFinalLens.png, id=179, 1155.31625pt x 825.0825pt>
 File: pics/HornFinalLens.png Graphic file (type png)
 
 <use pics/HornFinalLens.png>
@@ -1741,13 +1754,13 @@ Package pdftex.def Info: pics/HornFinalLens.png used on input line 179.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [19] [20 <./pics/LensDesign.png> <./pics/LensModel.png> <./pics/HornFinalLens
+) [20] [21 <./pics/LensDesign.png> <./pics/LensModel.png> <./pics/HornFinalLens
 .png>]
 \openout2 = `3-Realization.aux'.
 
  (./3-Realization.tex
 Kapitola 4.
-<pics/Printer.jpg, id=184, 1204.5pt x 1644.1425pt>
+<pics/Printer.jpg, id=191, 1204.5pt x 1644.1425pt>
 File: pics/Printer.jpg Graphic file (type jpg)
  <use pics/Printer.jpg>
 Package pdftex.def Info: pics/Printer.jpg used on input line 20.
@@ -1756,11 +1769,11 @@ Package pdftex.def Info: pics/Printer.jpg used on input line 20.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21
+[22
 
 
 
-] [22 <./pics/Printer.jpg>]
+] [23 <./pics/Printer.jpg>]
 Overfull \hbox (25.22586pt too wide) in paragraph at lines 43--44
 []\T1/cmr/m/n/10.95 Jako reál-n¥j²í ma-ter-iály poté vy-chází F-electric, s vo-
 di-vostí $\OT1/cmr/m/n/10.95 133\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 33 \OML
@@ -1779,29 +1792,31 @@ mr/m/n/10.95 2 \OML/cmm/m/it/10.95 CZK$\T1/cmr/m/n/10.95 /m, $\OT1/cmr/m/n/10.9
 5 1166\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 4 \OML/cmm/m/it/10.95 CZK$
  []
 
-File: pics/HornFinal.png Graphic file (type png)
-<use pics/HornFinal.png>
-Package pdftex.def Info: pics/HornFinal.png used on input line 49.
-(pdftex.def)             Requested size: 270.30118pt x 153.09918pt.
+<pics/HornReal.png, id=199, 2484.28125pt x 1728.4575pt>
+File: pics/HornReal.png Graphic file (type png)
+
+<use pics/HornReal.png>
+Package pdftex.def Info: pics/HornReal.png used on input line 49.
+(pdftex.def)             Requested size: 270.30118pt x 188.04735pt.
 
 Overfull \hbox (9.58047pt too wide) in paragraph at lines 55--56
 []\T1/cmr/m/n/10.95 Bohuºel v²ak p°i re-al-izaci dal²ích struk-tur docházelo k 
 výz-nam-ným kom-p-likacím znemoº¬u-
  []
 
-[23]
+[24 <./pics/HornReal.png>]
 Overfull \hbox (3.13744pt too wide) in paragraph at lines 59--60
 \T1/cmr/m/n/10.95 která by m¥la výrazn¥ v¥t²í sty£-nou plochu podá-vacího mech-
 a-nismu s fil-a-mentem pro moºnost
  []
 
-<pics/HornFail.png, id=195, 2042.63126pt x 1891.065pt>
+<pics/HornFail.png, id=204, 2042.63126pt x 1891.065pt>
 File: pics/HornFail.png Graphic file (type png)
  <use pics/HornFail.png>
 Package pdftex.def Info: pics/HornFail.png used on input line 63.
 (pdftex.def)             Requested size: 270.30118pt x 250.23308pt.
 
-[24 <./pics/HornFail.png>]
+[25 <./pics/HornFail.png>]
 File: pics/LensModel.png Graphic file (type png)
  <use pics/LensModel.png>
 Package pdftex.def Info: pics/LensModel.png used on input line 81.
@@ -1817,7 +1832,7 @@ Overfull \hbox (40.24774pt too wide) in paragraph at lines 95--96
 len ma-ter-iál $\OML/cmm/m/it/10.95 PlastyMladePETtransparent$
  []
 
-[25] <pics/platingtest.png, id=203, 3220.03pt x 2539.4875pt>
+[26] <pics/platingtest.png, id=212, 3220.03pt x 2539.4875pt>
 File: pics/platingtest.png Graphic file (type png)
 
 <use pics/platingtest.png>
@@ -1827,7 +1842,7 @@ Package pdftex.def Info: pics/platingtest.png used on input line 118.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] <pics/plated/deform.png, id=207, 2015.53pt x 1496.59125pt>
+[27] <pics/plated/deform.png, id=216, 2015.53pt x 1496.59125pt>
 File: pics/plated/deform.png Graphic file (type png)
 
 <use pics/plated/deform.png>
@@ -1837,7 +1852,7 @@ Package pdftex.def Info: pics/plated/deform.png used on input line 133.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/plated/adhes.png, id=208, 1951.29pt x 1481.535pt>
+<pics/plated/adhes.png, id=217, 1951.29pt x 1481.535pt>
 File: pics/plated/adhes.png Graphic file (type png)
 
 <use pics/plated/adhes.png>
@@ -1847,7 +1862,7 @@ Package pdftex.def Info: pics/plated/adhes.png used on input line 141.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/MatchDia.png, id=209, 367.8543pt x 106.2369pt>
+<pics/MatchDia.png, id=218, 367.8543pt x 106.2369pt>
 File: pics/MatchDia.png Graphic file (type png)
  <use pics/MatchDia.png>
 Package pdftex.def Info: pics/MatchDia.png used on input line 157.
@@ -1856,7 +1871,7 @@ Package pdftex.def Info: pics/MatchDia.png used on input line 157.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[27 <./pics/platingtest.png>]
+[28 <./pics/platingtest.png>]
 PGFPlots: reading {hornmatch.dat}
 PGFPlots: reading {hornMatch.dat}
 Missing character: There is no ; in font nullfont!
@@ -1866,7 +1881,7 @@ Overfull \hbox (0.9827pt too wide) in paragraph at lines 188--189
 la sm¥rová charak-ter-is-tika, která
  []
 
-<pics/DirectDia.png, id=214, 1204.2591pt x 546.6021pt>
+<pics/DirectDia.png, id=225, 1204.2591pt x 546.6021pt>
 File: pics/DirectDia.png Graphic file (type png)
 
 <use pics/DirectDia.png>
@@ -1876,95 +1891,104 @@ Package pdftex.def Info: pics/DirectDia.png used on input line 192.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <./pics/plated/deform.png>]
+[29 <./pics/plated/deform.png>]
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
 PGFPlots: reading {horn.dat}
 Missing character: There is no ; in font nullfont!
+PGFPlots: reading {horn.dat}
+PGFPlots: reading {horn.dat}
+PGFPlots: reading {horn.dat}
+Missing character: There is no ; in font nullfont!
+ [30 <./pics/plated/adhes.png> <./pics/MatchDia.png>]
+PGFPlots: reading {ParamExtract.dat}
+PGFPlots: reading {ParamExtract.dat}
+PGFPlots: reading {ParamExtract.dat}
+PGFPlots: reading {ParamExtract.dat}
+Missing character: There is no ; in font nullfont!
+ <pics/CSTscript.png, id=234, 428.60126pt x 489.83pt>
+File: pics/CSTscript.png Graphic file (type png)
 
-Overfull \hbox (104.634pt too wide) in paragraph at lines 223--225
-[][]
- []
+<use pics/CSTscript.png>
+Package pdftex.def Info: pics/CSTscript.png used on input line 286.
+(pdftex.def)             Requested size: 270.30118pt x 308.91591pt.
 
-PGFPlots: reading {horn.dat}
-PGFPlots: reading {horn.dat}
-PGFPlots: reading {horn.dat}
-Missing character: There is no ; in font nullfont!
-[29 <./pics/plated/adhes.png> <./pics/MatchDia.png>]
-PGFPlots: reading {ParamExtract.dat}
-PGFPlots: reading {ParamExtract.dat}
-PGFPlots: reading {ParamExtract.dat}
-PGFPlots: reading {ParamExtract.dat}
-Missing character: There is no ; in font nullfont!
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 PGFPlots: reading {ExtractRes.dat}
 PGFPlots: reading {ExtractRes.dat}
 Missing character: There is no ; in font nullfont!
 PGFPlots: reading {ExtractRes.dat}
 PGFPlots: reading {ExtractRes.dat}
 Missing character: There is no ; in font nullfont!
-) [30 <./pics/DirectDia.png>] [31] [32] [33]
+) [31 <./pics/DirectDia.png>] [32] [33 <./pics/CSTscript.png>] [34]
 \openout2 = `4-Conclusion.aux'.
 
- (./4-Conclusion.tex
+
+(./4-Conclusion.tex
 Kapitola 5.
-) [34
+) [35
 
 
 
 ]
 \openout2 = `80-bibl.aux'.
 
- (./80-bibl.tex [35
+ (./80-bibl.tex [36
 
 
 
-] (./0-0-0-main.lof [36
+] (./0-0-0-main.lof [37
 
 ])
 \tf@lof=\write6
 \openout6 = `0-0-0-main.lof'.
 
- [37] (./0-0-0-main.lot)
+ [38] (./0-0-0-main.lot)
 \tf@lot=\write7
 \openout7 = `0-0-0-main.lot'.
 
 )
-[38
+[39
 
-] [39
+] [40
 
 ] (./0-0-0-main.aux (./cover.aux) (./contents.aux)
 (./0-Introduction.aux) (./1-Theoretical.aux) (./2-Design.aux)
-(./3-Realization.aux) (./4-Conclusion.aux) (./80-bibl.aux)) ) 
+(./3-Realization.aux) (./4-Conclusion.aux) (./80-bibl.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 40545 strings out of 493014
- 1013345 string characters out of 6133351
- 1428420 words of memory out of 5000000
- 43393 multiletter control sequences out of 15000+600000
+ 40568 strings out of 493014
+ 1013824 string characters out of 6133351
+ 1429671 words of memory out of 5000000
+ 43412 multiletter control sequences out of 15000+600000
  15519 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,19n,102p,10361b,2151s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texliv
-e/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/
-2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texmf-dist
-/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2016/texmf-dist/fonts
-/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
-e1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1
-/public/cm-super/sfrm1200.pfb>
-Output written on 0-0-0-main.pdf (48 pages, 22182954 bytes).
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
+r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
+local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/
+texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on 0-0-0-main.pdf (49 pages, 25291664 bytes).
 PDF statistics:
- 307 PDF objects out of 1000 (max. 8388607)
- 184 compressed objects within 2 object streams
+ 319 PDF objects out of 1000 (max. 8388607)
+ 187 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 172 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 
