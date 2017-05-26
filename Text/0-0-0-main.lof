@@ -4,40 +4,42 @@
 \contentsline {figure}{\numberline {2-2}{\ignorespaces Porovn\IeC {\'a}n\IeC {\'\i } r\IeC {\r u}zn\IeC {\'e}ho motivu vrstvy, a) 100\,\% vypl\IeC {\v n} typem rectilinear, b) 20\,\% vypln\IeC {\v n} typem cubic}}{5}
 \contentsline {figure}{\numberline {2-3}{\ignorespaces N\IeC {\'a}hled vrstev 1-6 struktury s kombinovanou v\IeC {\'y}pln\IeC {\'\i } typu rectilinear (prvn\IeC {\'\i } dv\IeC {\v e} vrstvy) a cubic o rozd\IeC {\'\i }ln\IeC {\'e} procentu\IeC {\'a}ln\IeC {\'\i } v\IeC {\'y}plni}}{5}
 \contentsline {figure}{\numberline {2-4}{\ignorespaces Princip trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny}}{7}
-\contentsline {figure}{\numberline {2-5}{\ignorespaces Typick\IeC {\'e} proveden\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'y}ch ant\IeC {\'e}n \cite {ConstantineTheory}}}{7}
+\contentsline {figure}{\numberline {2-5}{\ignorespaces Typick\IeC {\'e} proveden\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'y}ch ant\IeC {\'e}n \cite {ConstantineTheory}}}{8}
 \contentsline {figure}{\numberline {2-6}{\ignorespaces Porovn\IeC {\'a}n\IeC {\'\i } sm\IeC {\v e}rov\IeC {\'y}ch charakteristik trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny s otev\IeC {\v r}en\IeC {\'\i }m v rovin\IeC {\v e} a) E , b) H \cite {ConstantineTheory}}}{8}
-\contentsline {figure}{\numberline {2-7}{\ignorespaces Pyramid\IeC {\'a}ln\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na \cite {ConstantineTheory}}}{8}
+\contentsline {figure}{\numberline {2-7}{\ignorespaces Pyramid\IeC {\'a}ln\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na \cite {ConstantineTheory}}}{9}
 \contentsline {figure}{\numberline {2-8}{\ignorespaces Pyramid\IeC {\'a}ln\IeC {\'\i } trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'a} ant\IeC {\'e}na v \IeC {\v r}ezu a)E-roviny, b)H-roviny \cite {ConstantineTheory}}}{9}
-\contentsline {figure}{\numberline {2-9}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } f\IeC {\'a}zov\IeC {\'e} chyby $Y$}}{10}
-\contentsline {figure}{\numberline {2-10}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e} pro r\IeC {\r u}zn\IeC {\'e} \IeC {\'u}hly otev\IeC {\v r}en\IeC {\'\i } pyramid\IeC {\'a}ln\IeC {\'\i }ho trycht\IeC {\'y}\IeC {\v r}e}}{11}
-\contentsline {figure}{\numberline {2-11}{\ignorespaces Princip ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ky}}{12}
+\contentsline {figure}{\numberline {2-9}{\ignorespaces Zn\IeC {\'a}zorn\IeC {\v e}n\IeC {\'\i } f\IeC {\'a}zov\IeC {\'e} chyby $Y$}}{11}
+\contentsline {figure}{\numberline {2-10}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e} pro r\IeC {\r u}zn\IeC {\'e} d\IeC {\'e}lky pyramid\IeC {\'a}ln\IeC {\'\i }ho trycht\IeC {\'y}\IeC {\v r}e p\IeC {\v r}i zachov\IeC {\'a}n\IeC {\'\i } rozm\IeC {\v e}r\IeC {\r u} apertury (CST MW studio simulace)}}{11}
+\contentsline {figure}{\numberline {2-11}{\ignorespaces Princip ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ky}}{13}
 \contentsline {figure}{\numberline {2-12}{\ignorespaces Typy ant\IeC {\'e}nn\IeC {\'\i }ch \IeC {\v c}o\IeC {\v c}ek. 1 - Zpomaluj\IeC {\'\i }c\IeC {\'\i }, 2 - Zrychluj\IeC {\'\i }c\IeC {\'\i }}}{13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3-1}{\ignorespaces Vstupn\IeC {\'\i } model ant\IeC {\'e}ny}}{15}
-\contentsline {figure}{\numberline {3-2}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e}, kde: \textbf {A}-$p=140\,mm$, \textbf {B}-$p=140\,mm$; $plth=1.45\,mm$, \textbf {C}-$p=140\,mm$; $plth=0.9\,mm$, \textbf {D}-$p=140\,mm$; $plth=1.45\,mm$; $G=133.3\,S/m$}}{17}
+\contentsline {figure}{\numberline {3-1}{\ignorespaces Vstupn\IeC {\'\i } model ant\IeC {\'e}ny}}{16}
+\contentsline {figure}{\numberline {3-2}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e}, kde: \textbf {A}-$p=140\,mm$, \textbf {B}- $plth=1.45\,mm$, \textbf {C}-$plth=0.9\,mm$, \textbf {D}- $plth=1.45\,mm$; $G=133.3\,S/m$}}{17}
 \contentsline {figure}{\numberline {3-3}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod}}{18}
-\contentsline {figure}{\numberline {3-4}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod a n\IeC {\'a}sledn\IeC {\'e} sestaven\IeC {\'\i }}}{18}
+\contentsline {figure}{\numberline {3-4}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod a n\IeC {\'a}sledn\IeC {\'e} sestaven\IeC {\'\i }}}{19}
 \contentsline {figure}{\numberline {3-5}{\ignorespaces \IeC {\v R}ezy sm\IeC {\v e}rov\IeC {\'y}ch charakteristiky v E rovin\IeC {\v e}, kde: \textbf {A} - P\IeC {\r u}vodn\IeC {\'\i } optimalizovan\IeC {\'y} trycht\IeC {\'y}\IeC {\v r}, \textbf {B} - Trycht\IeC {\'y}\IeC {\v r} s p\IeC {\v r}\IeC {\'\i }rubami na sestaven\IeC {\'\i }}}{19}
-\contentsline {figure}{\numberline {3-6}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma transmisn\IeC {\'\i }/reflexn\IeC {\'\i } extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}}{19}
+\contentsline {figure}{\numberline {3-6}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma transmisn\IeC {\'\i }/reflexn\IeC {\'\i } extrakce dielektrick\IeC {\'y}ch parametr\IeC {\r u}}}{20}
 \contentsline {figure}{\numberline {3-7}{\ignorespaces N\IeC {\'a}vrh \IeC {\v c}o\IeC {\v c}ky}}{21}
 \contentsline {figure}{\numberline {3-8}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model \IeC {\v c}o\IeC {\v c}ky}}{21}
-\contentsline {figure}{\numberline {3-9}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} \IeC {\v c}o\IeC {\v c}ky}}{21}
+\contentsline {figure}{\numberline {3-9}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} \IeC {\v c}o\IeC {\v c}ky}}{22}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4-1}{\ignorespaces 3D tisk\IeC {\'a}rna Original Prusa i3 MK2}}{23}
-\contentsline {figure}{\numberline {4-2}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod realizovan\IeC {\'y} technologi\IeC {\'\i } 3D tisku za pou\IeC {\v z}it\IeC {\'\i } F-electric filamentu}}{24}
-\contentsline {figure}{\numberline {4-3}{\ignorespaces D\IeC {\r u}sledek ucpav\IeC {\'a}n\IeC {\'\i } trysky v pr\IeC {\r u}b\IeC {\v e}hu tisku modelu}}{25}
-\contentsline {figure}{\numberline {4-4}{\ignorespaces Realizovan\IeC {\'a} ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka z materi\IeC {\'a}lu Plasty Mlade\IeC {\v c} PET transparent}}{26}
-\contentsline {figure}{\numberline {4-5}{\ignorespaces Realizovan\IeC {\'a} struktura s n\IeC {\'a}sledn\IeC {\'y}m n\IeC {\'a}nosem EMI 25}}{26}
-\contentsline {figure}{\numberline {4-6}{\ignorespaces V\IeC {\'y}sledn\IeC {\'a} testovac\IeC {\'\i } struktura s v\IeC {\'y}ran\IeC {\v e} vidit\IeC {\v e}lnou nekonzistentn\IeC {\'\i } vrstvou}}{28}
-\contentsline {figure}{\numberline {4-7}{\ignorespaces Deformace a nedokonalosti v dutin\IeC {\v e} v\IeC {\'y}sledn\IeC {\'e} pokoven\IeC {\'e} struktury}}{29}
-\contentsline {figure}{\numberline {4-8}{\ignorespaces N\IeC {\'\i }zk\IeC {\'a} p\IeC {\v r}ilnavost k hladk\IeC {\'y}m povrch\IeC {\r u}m}}{30}
-\contentsline {figure}{\numberline {4-9}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma m\IeC {\v e}\IeC {\v r}en\IeC {\'\i } impedan\IeC {\v c}n\IeC {\'\i }ho p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i }}}{30}
-\contentsline {figure}{\numberline {4-10}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} impedan\IeC {\v c}n\IeC {\'\i } p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i } realizovan\IeC {\'e} trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny za pou\IeC {\v z}it\IeC {\'\i } \textbf {A} - F-electric, \textbf {B} - Plasty Mlade\IeC {\v c} PET transparent + EMI 25}}{31}
-\contentsline {figure}{\numberline {4-11}{\ignorespaces Zjednodu\IeC {\v s}en\IeC {\'e} blokov\IeC {\'e} sch\IeC {\'e}ma m\IeC {\v e}\IeC {\v r}en\IeC {\'\i } sm\IeC {\v e}rov\IeC {\'e} charakteristiky}}{31}
-\contentsline {figure}{\numberline {4-12}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'y}ch trycht\IeC {\'y}\IeC {\v r}\IeC {\r u} v E rovin\IeC {\v e}}}{32}
-\contentsline {figure}{\numberline {4-13}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'y}ch trycht\IeC {\'y}\IeC {\v r}\IeC {\r u} v H rovin\IeC {\v e}}}{32}
-\contentsline {figure}{\numberline {4-14}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} \IeC {\'u}tlumy vzork\IeC {\r u} pro extrakci parametr\IeC {\r u}}}{33}
-\contentsline {figure}{\numberline {4-15}{\ignorespaces N\IeC {\'a}hled vhodn\IeC {\v e} nakonfigurovan\IeC {\'e}ho u\IeC {\v z}ivatelsk\IeC {\'e}ho rozhran\IeC {\'\i } makra v CST MW studio}}{33}
-\contentsline {figure}{\numberline {4-16}{\ignorespaces V\IeC {\'y}sledky extrakce komplexn\IeC {\'\i } permitivity materi\IeC {\'a}l\IeC {\r u} Plasty Mlade\IeC {\v c} transparent PLA a PET}}{34}
-\contentsline {figure}{\numberline {4-17}{\ignorespaces V\IeC {\'y}sledky extrakce ztr\IeC {\'a}tov\IeC {\'e}ho \IeC {\v c}initele materi\IeC {\'a}l\IeC {\r u} Plasty Mlade\IeC {\v c} transparent PLA a PET}}{34}
+\contentsline {figure}{\numberline {4-1}{\ignorespaces 3D tisk\IeC {\'a}rna Original Prusa i3 MK2}}{24}
+\contentsline {figure}{\numberline {4-2}{\ignorespaces V\IeC {\'y}sledn\IeC {\'y} model trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny v\IeC {\v c}etn\IeC {\v e} p\IeC {\v r}\IeC {\'\i }ruby na vlnovod realizovan\IeC {\'y} technologi\IeC {\'\i } 3D tisku za pou\IeC {\v z}it\IeC {\'\i } F-electric filamentu}}{26}
+\contentsline {figure}{\numberline {4-3}{\ignorespaces D\IeC {\r u}sledek ucpav\IeC {\'a}n\IeC {\'\i } trysky v pr\IeC {\r u}b\IeC {\v e}hu tisku modelu}}{27}
+\contentsline {figure}{\numberline {4-4}{\ignorespaces Realizovan\IeC {\'a} ant\IeC {\'e}nn\IeC {\'\i } \IeC {\v c}o\IeC {\v c}ka z materi\IeC {\'a}lu Plasty Mlade\IeC {\v c} PET transparent}}{28}
+\contentsline {figure}{\numberline {4-5}{\ignorespaces Realizovan\IeC {\'a} struktura s n\IeC {\'a}sledn\IeC {\'y}m n\IeC {\'a}nosem EMI 25 osazen\IeC {\'a} \IeC {\v c}o\IeC {\v c}kou}}{29}
+\contentsline {figure}{\numberline {4-6}{\ignorespaces V\IeC {\'y}sledn\IeC {\'a} testovac\IeC {\'\i } struktura s v\IeC {\'y}razn\IeC {\v e} vidit\IeC {\v e}lnou nekonzistentn\IeC {\'\i } vrstvou}}{30}
+\contentsline {figure}{\numberline {4-7}{\ignorespaces Deformace a nedokonalosti v dutin\IeC {\v e} v\IeC {\'y}sledn\IeC {\'e} pokoven\IeC {\'e} struktury}}{30}
+\contentsline {figure}{\numberline {4-8}{\ignorespaces N\IeC {\'\i }zk\IeC {\'a} p\IeC {\v r}ilnavost k hladk\IeC {\'y}m povrch\IeC {\r u}m}}{31}
+\contentsline {figure}{\numberline {4-9}{\ignorespaces Blokov\IeC {\'e} sch\IeC {\'e}ma m\IeC {\v e}\IeC {\v r}en\IeC {\'\i } impedan\IeC {\v c}n\IeC {\'\i }ho p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i }}}{31}
+\contentsline {figure}{\numberline {4-10}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} impedan\IeC {\v c}n\IeC {\'\i } p\IeC {\v r}izp\IeC {\r u}soben\IeC {\'\i } realizovan\IeC {\'e} trycht\IeC {\'y}\IeC {\v r}ov\IeC {\'e} ant\IeC {\'e}ny za pou\IeC {\v z}it\IeC {\'\i } \textbf {A} - F-electric, \textbf {B} - Plasty Mlade\IeC {\v c} PET transparent + EMI 25}}{32}
+\contentsline {figure}{\numberline {4-11}{\ignorespaces Zjednodu\IeC {\v s}en\IeC {\'e} blokov\IeC {\'e} sch\IeC {\'e}ma m\IeC {\v e}\IeC {\v r}en\IeC {\'\i } sm\IeC {\v e}rov\IeC {\'e} charakteristiky}}{33}
+\contentsline {figure}{\numberline {4-12}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'y}ch trycht\IeC {\'y}\IeC {\v r}\IeC {\r u} v H rovin\IeC {\v e}}}{33}
+\contentsline {figure}{\numberline {4-13}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} vyza\IeC {\v r}ovac\IeC {\'\i } charakteristiky realizovan\IeC {\'y}ch trycht\IeC {\'y}\IeC {\v r}\IeC {\r u} v E rovin\IeC {\v e}}}{34}
+\contentsline {figure}{\numberline {4-14}{\ignorespaces Sestaven\IeC {\'\i } m\IeC {\v e}\IeC {\v r}\IeC {\'\i }c\IeC {\'\i }ho syst\IeC {\'e}mu pro z\IeC {\'\i }sk\IeC {\'a}n\IeC {\'\i } dat pot\IeC {\v r}ebn\IeC {\'y}ch pro extrakci}}{35}
+\contentsline {figure}{\numberline {4-15}{\ignorespaces Nam\IeC {\v e}\IeC {\v r}en\IeC {\'e} \IeC {\'u}tlumy vzork\IeC {\r u} pro extrakci parametr\IeC {\r u}}}{35}
+\contentsline {figure}{\numberline {4-16}{\ignorespaces N\IeC {\'a}hled vhodn\IeC {\v e} nakonfigurovan\IeC {\'e}ho u\IeC {\v z}ivatelsk\IeC {\'e}ho rozhran\IeC {\'\i } makra v CST MW studio}}{36}
+\contentsline {figure}{\numberline {4-17}{\ignorespaces V\IeC {\'y}sledky extrakce komplexn\IeC {\'\i } permitivity materi\IeC {\'a}l\IeC {\r u} Plasty Mlade\IeC {\v c} transparent PLA a PET}}{37}
+\contentsline {figure}{\numberline {4-18}{\ignorespaces V\IeC {\'y}sledky extrakce ztr\IeC {\'a}tov\IeC {\'e}ho \IeC {\v c}initele materi\IeC {\'a}l\IeC {\r u} Plasty Mlade\IeC {\v c} transparent PLA a PET}}{37}
+\addvspace {10\p@ }
 \addvspace {10\p@ }

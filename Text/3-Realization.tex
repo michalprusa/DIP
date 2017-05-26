@@ -10,12 +10,12 @@ Vlastní realizace struktury není pouhé vygenerování dat pomocí standartní
 
 Jelikož se vlastnosti zejména vodivých filamentů zásadně liší od běžně dostupných, je patrné, že bude nutno proces dostatečně upravit pro úspěšné dokončení tisku, jeho opakovatelnosti a následné použitelnosti produktu. Podobně jako v případě post-processingu v podobě pokovení.
 
-Naopak anténní čočka a vzorky pro extrakci parametrů lze realizovat standartním způsobem a je pouze otázkou časové náročnosti procesu a voblou správného materiálu.
+Naopak anténní čočka a vzorky pro extrakci parametrů lze realizovat standartním způsobem a je pouze otázkou časové náročnosti procesu a volbou správného materiálu.
 
 \section{3D tisk}
-Realizace veškerých struktur v této práci byla pomocí technologie 3D tisku FDM, kterou jsme si již vysvětlili v kapitole 1. Opět však je možnost zvolit nepřeberné množství tirkáren kterou jsou čím dál více dostupné, v tomto případě se jednalo o Original Prusa i3 MK2 \ref{fig:PrinterMK2}. Toto zařízení patří mezi nejpoužívanější stolní 3D tiskárny na světě \cite{3Dhubs} a existuje široká škála již před připravených, řádně otestovaných, tiskových nastavení ze které výrazně urychlí případné ladění pro specifický materiál.
+Realizace veškerých struktur v této práci byla pomocí technologie 3D tisku FDM, kterou jsme si již vysvětlili v kapitole 1. Opět však je možnost zvolit nepřeberné množství tiskáren kterou jsou čím dál více dostupné, v tomto případě se jednalo o Original Prusa i3 MK2 \ref{fig:PrinterMK2}. Toto zařízení patří mezi nejpoužívanější stolní 3D tiskárny na světě \cite{3Dhubs} a existuje široká škála již před připravených, řádně otestovaných, tiskových nastavení ze které výrazně urychlí případné ladění pro specifický materiál.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=7.5cm]{pics/Printer}
 \caption{3D tiskárna Original Prusa i3 MK2}
@@ -34,17 +34,17 @@ Pro námi navrženou anténu byly použity následující filamenty:
 \item MKF Filament MKF-ABS F1.75 černá / VODIVÁ
 \end{itemize}
 
-Veškeré použité filamenty jsou na nosiči PLA, s vyjímkou MKF-ABS. Jako příměs jsou použity grafenové fragmenty (Blackmagic), uhlíkové nanotrubky (F-electric) a měďěné částice (Electrifi). Bohužel u materiálu MKF nebylo možné s dostatečnou přesností určit příměs jelikož výrobce tento údajneposkytuje. Podobná situace poté však ale platí i procentuální podíl příměsí, které jsou buďto tajné, či neznámé pro všechny testované vzorky.
+Veškeré použité filamenty jsou na nosiči PLA, s výjímkou MKF-ABS. Jako příměs jsou použity grafenové fragmenty (Blackmagic), uhlíkové nanotrubky (F-electric) a měděné částice (Electrifi). Bohužel u materiálu MKF nebylo možné s dostatečnou přesností určit příměs jelikož výrobce tento údajně poskytuje. Podobná situace poté však ale platí i procentuální podíl příměsí, které jsou buďto tajné, či neznámé pro všechny testované vzorky.
 
-Z hlediska vodivosti, tedy nejlepšího kandidáta na použití při realizaci dle udávaných parametrů (byly-li dostupné) je jednoznažně Electrify, který udává $16667\,S/m$. Nicméně je velmi důležitá jeho náročnost na tiskový proces vlivem velkého procenta mědi, která akumuluje teplo a značně prodlužuje zchlazení objektu pod teplotu skelného přechodu způsobující následnou deformaci tisknutého produktu vlivem gravitace.
+Z hlediska vodivosti, tedy nejlepšího kandidáta na použití při realizaci dle udávaných parametrů (byly-li dostupné) je jednoznačně Electrify, který udává 16667\,S/m. Nicméně je velmi důležitá jeho náročnost na tiskový proces vlivem velkého procenta mědi, která akumuluje teplo a značně prodlužuje zchlazení objektu pod teplotu skelného přechodu způsobující následnou deformaci tisknutého produktu vlivem gravitace.
 
-Dalším významným faktorem filamenty Electrifi je jeho cena, $199.53\,CZK$/m. Pokud bychom tedy chtěli realizovat námi navržený trychtýř, bylo by nezbytné použít téměř 27\,m, celkem tedy $5 387\,CZK$ za předpokladu 100\,\% úspěšnosti realizace.
+Dalším významným faktorem filamenty Electrifi je jeho cena, 199.53\,CZK/m. Pokud bychom tedy chtěli realizovat námi navržený trychtýř, bylo by nezbytné použít téměř 27\,m, celkem tedy 5 387\,CZK za předpokladu 100\,\% úspěšnosti realizace.
 
-Jako reálnější materiály poté vychází F-electric, s vodivostí $133.33\,S/m$ a cenou $25.73\,CZK$/m, $694.71\,CZK$ za trychtýř, či Blackmagic, s vodivostí $166.67\,S$ a cenou $43.2\,CZK$/m, $1 166.4\,CZK$ za trychtýř, které vykazují výrazně vhodnější parametry pro tisk.
+Jako reálnější materiály poté vychází F-electric, s vodivostí 133.33\,S/m a cenou 25.73\,CZK/m, 694.71\,CZK za trychtýř, či Blackmagic, s vodivostí 166.67\,S a cenou 43.2\,CZK/m, 1 166.4\,CZK za trychtýř, které vykazují výrazně vhodnější parametry pro tisk.
 
-Před vlastní generací dat je však nutno vyrvořit profil charakterizující materiál z hlediska teplot, rychlosti procesu, chalzení, a ostatních parametrů. Pro získání prvnotního návrhu nastavení lze pouze převzít doporučené hodnoty výrobcem, nicméně ne vždy toto musí platit! Jelikož neexistuje jednotný standart pro 3D tiskrány typu: tiskový povrch, geometrie trysky, mechanika extruderu, a další, bude pravděpodobné že toto nastavení ve finální podobě bude odlišné.
+Před vlastní generací dat je však nutno vytvořit profil charakterizující materiál z hlediska teplot, rychlosti procesu, chlazení, a ostatních parametrů. Pro získání prvotního návrhu nastavení lze pouze převzít doporučené hodnoty výrobcem, nicméně ne vždy toto musí platit! Jelikož neexistuje jednotný standart pro 3D tiskárny typu: tiskový povrch, geometrie trysky, mechanika extruderu, a další, bude pravděpodobné že toto nastavení ve finální podobě bude odlišné.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/HornReal}
 \caption{Výsledný model trychtýřové antény včetně příruby na vlnovod realizovaný technologií 3D tisku za použití F-electric filamentu}
@@ -54,11 +54,11 @@ Před vlastní generací dat je však nutno vyrvořit profil charakterizující 
 
 Bohužel však při realizaci dalších struktur docházelo k významným komplikacím znemožňující další produkci, zejména k ucpavání trysky \ref{fig:HornFail}.
 
-K těmto skutečnostem pravděpodobně vedlo nadměrné hromadění příměsí v místě zužení trysky způsobující zúst mechanického odporu a nároků na potřebnou sílu k jeho překonání. Vlivem nízké mechanické soudržnosti materiálu a křehkosti způsobeno vysokým procentem plnění poté dochází k prokluzování podávacího mechanismu extruderu a následného výpadku extruze. Další pravděpodobnou příčinou mohl být vlastní průměr filamentu, který pokud je mimo specifikaci ($\pm$50\,$\mu$m) může dojít k podobné situaci jelikož ne vždy je možné protáhnout předmět větší než rozměry otvoru. 
+K těmto skutečnostem pravděpodobně vedlo nadměrné hromadění příměsí v místě zúžení trysky způsobující rúst mechanického odporu a nároků na potřebnou sílu k jeho překonání. Vlivem nízké mechanické soudržnosti materiálu a křehkosti způsobeno vysokým procentem plnění poté dochází k prokluzování podávacího mechanismu extruderu a následného výpadku extruze. Další pravděpodobnou příčinou mohl být vlastní průměr filamentu, který pokud je mimo specifikaci ($\pm$50\,$\mu$m) může dojít k podobné situaci jelikož ne vždy je možné protáhnout předmět větší než rozměry otvoru. 
 
-Tyto komplikace byly částečně eliminovány použitím trysky $D_{nozzle} = 0.6\,mm$, avšak problémy stále přetrvávali a proces byl velmi nespolehlivý a neopakovatelný. Možné další principy eliminace mohou být realizovány například úpravou mechanické části extruderu, která by měla výrazně větší styčnou plochu podávacího mechanismu s filamentem pro možnost vyvinou vyšší tlačnou sílu.
+Tyto komplikace byly částečně eliminovány použitím trysky $D_{nozzle}$ = 0.6\,mm, avšak problémy stále přetrvávali a proces byl velmi nespolehlivý a neopakovatelný. Možné další principy eliminace mohou být realizovány například úpravou mechanické části extruderu, která by měla výrazně větší styčnou plochu podávacího mechanismu s filamentem pro možnost vyvinou vyšší tlačnou sílu.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/HornFail}
 \caption{Důsledek ucpavání trysky v průběhu tisku modelu}
@@ -76,9 +76,9 @@ Pokud toto nebude při realizaci dodrženo, vlivem nehomogenního prostředí pr
 
 Jelikož rozměry navržené čočky jsou natolik velké, že v kombinaci s vysokou teplotní roztažností materiálu a stoprocentním podílem materiálu v objektu, bylo nutné zvolit materiál PLA, případně PET z důvodu možného použití standartních tiskových nastavení s pouhou změnou procentuální výplně materiálem na 100\,\%.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
-\includegraphics[width=9.5cm]{pics/LensModel}
+\includegraphics[width=9.5cm]{pics/final/lensReal}
 \caption{Realizovaná anténní čočka z materiálu Plasty Mladeč PET transparent}
 \label{fig:LensReal}
 \end{center}
@@ -92,13 +92,13 @@ Jako první cesta pro maximalizaci vodivosti produktu byla zvolena metoda elektr
 
 Použitý elektrický lak je založen na termoplastickém polymeru s přidaným speciálním měděným pigmentem rozpuštěném ve vhodné ředící složce. Po aplikaci laku v průběhu 24 hodin dojde k postupnému odpaření ředící složky a vznikne tenká vodivá vrstva, o tloušťce v řádu 50\,$\mu$m.
 
-Při zvolení této cesty není nutno realizovat strukturu z vodivého polymeru jelikož přilnutí vodivé látky není podmíněno jeho vodivostí. Byl tedy zvolen materiál $Plasty Mladeč PET transparent$ z důvodu vhodných vlastností při tisku rozměrově blízkých k maximu použité 3D tiskárny.
+Při zvolení této cesty není nutno realizovat strukturu z vodivého polymeru jelikož přilnutí vodivé látky není podmíněno jeho vodivostí. Byl tedy zvolen materiál Plasty Mladeč PET transparent z důvodu vhodných vlastností při tisku rozměrově blízkých k maximu použité 3D tiskárny.
 
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
-%\includegraphics[width=9.5cm]{pics/HornFail}
-\caption{Realizovaná struktura s následným nánosem EMI 25}
+\includegraphics[width=9.5cm]{pics/final/Assembly}
+\caption{Realizovaná struktura s následným nánosem EMI 25 osazená čočkou}
 \label{fig:HornEMI}
 \end{center}
 \end{figure}
@@ -110,13 +110,13 @@ Jelikož tato metoda je závislá na principu elektrolýzy, je nutné aby pokovo
 
 Pokud tedy realizujeme strukturu například z filamentu F-electric, který při prvních testech byl stoprocentně úspěšný, můžeme ji následně přímo pokovit elektroformováním.
 
-Tento postup byl nejprve otestován v laboratorních podmínkách při prvotním testování před započatím této práce. Při výzkumu možností byla navržena základní mřížková struktura pro ověření použitelnosti metody. Dále pak bylo pozorováno velmi gradientní rozložení elektrického potenciálu, které řetězovou reakcí způsobylo nekonzistentní výsledné vrstvy s maximem u přípojného bodu elektrody.
+Tento postup byl nejprve otestován v laboratorních podmínkách při prvotním testování před započetím této práce. Při výzkumu možností byla navržena základní mřížková struktura pro ověření použitelnosti metody. Dále pak bylo pozorováno velmi gradientní rozložení elektrického potenciálu, které řetězovou reakcí způsobilo nekonzistentní výsledné vrstvy s maximem u přípojného bodu elektrody.
 
 Pro kompenzaci tohoto gradientního rozložení pole je možno využít postupné noření do lázně smeřem k přípojnému bodu za správné rychlosti.
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/platingtest}
-\caption{Výsledná testovací struktura s výraně viditělnou nekonzistentní vrstvou}
+\caption{Výsledná testovací struktura s výrazně viditělnou nekonzistentní vrstvou}
 \label{fig:platingtest}
 \end{center}
 \end{figure}
@@ -125,10 +125,10 @@ Z důvodu toho, že se tento postup jevil jako velmi perspektivní, byla naváz�
 
 Výsledkem této spolupráce byl velmi pozitivní z hlediska kvality a přilnavosti nanešené vrstvy (pomineme-li popsaná omezení technologie v 3.1 a přilnavost na hladké povrchy) a její vodivosti. Výsledná struktura při testu ohmického odporu standartním multimetrem CEM DT-61 vykazovala hodnoty pod rozlišovací schopnost.
 
-Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředáním vzájemných znalostí pužitých technologíí došlo k deformaci výsledné struktury. Jelikož materiál použitý pro realizaci struktury disponuje teplotou skelného přechodu $\vartheta_g \simeq 50\,^\circ$$C$ a teploty lázní procesu pokovení tuto teplotu standartně přesahují. Na základě této zkušenosti byla varžena speciálně modifikovaná struktura, viz 3.1, bohužel však vlivem výše uvedených komplikací se ji již nepodařilo realizovat, to ale nevylučuje realizovatelnost, jen vyžaduje delší výzkum samotných materiálů.
+Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředáním vzájemných znalostí použitých technologií došlo k deformaci výsledné struktury. Jelikož materiál použitý pro realizaci struktury disponuje teplotou skelného přechodu $\vartheta_g$ $\simeq 50\,^\circ$$C$ a teploty lázní procesu pokovení tuto teplotu standardně přesahují. Na základě této zkušenosti byla varžena speciálně modifikovaná struktura, viz 3.1, bohužel však vlivem výše uvedených komplikací se ji již nepodařilo realizovat, to ale nevylučuje realizovatelnost, jen vyžaduje delší výzkum samotných materiálů.
 
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/plated/deform}
 \caption{Deformace a nedokonalosti v dutině výsledné pokovené struktury}
@@ -136,7 +136,7 @@ Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředání
 \end{center}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/plated/adhes}
 \caption{Nízká přilnavost k hladkým povrchům}
@@ -145,14 +145,14 @@ Nicméně však vzhledem ke komunikačnímu šumu ve spolupráci, a nepředání
 \end{figure}
 
 
-\section{Měření parametrů}
+\section{Měření elektrických parametrů}
 Realizované vzorky byly podrobeny dvojicí měření (impedančního přizpůsobení a vyzařovací charakteristiky) pro oveření funkčnosti a srovnání se simulací v CST MW studio.
 
 \subsection{Impedanční přizpůsobení}
 Pro měření impedančního přizpůsobení bylo využito standartní měřící metodiky za použití vektorového analyzátoru Rohde \& Schwarz ZVA67.
 
 Blokové schéma měření je poté na \ref{fig:MatchDia}, kde \textbf{1}- Přechod z koaxiálního vedení na vlnovod R100, \textbf{2}- Kalibrační rovina, \textbf{3}- Měřená anténa.
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/MatchDia}
 \caption{Blokové schéma měření impedančního přizpůsobení}
@@ -164,11 +164,11 @@ Před samotným měřením parametrů je velmi důležité zkalibrovat systém n
 
 Nutné však dodat, že pro měření definovaného úseku vlnovodu je nutno vlnovod ukončit opět přechodem na koaxiální vedení, ideálně identického od stejného výrobce, ze stejné série, a zapojit do druhého kanálu analyzátoru pro možnost změření charakteristiky úseku vedení v měřícím systému. 
 
-\begin{figure}
+\begin{figure}[!htbp]
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Angle /\,$^\circ$},
-    ylabel={Amplitude /\,dB},
+    ylabel={$S_{11}$ /\,dB},
     minor tick num=10,
     minor grid style={gray!25},
     major grid style={black!50},
@@ -184,10 +184,12 @@ Nutné však dodat, že pro měření definovaného úseku vlnovodu je nutno vln
 \label{fig:Matching}
 \end{figure}
 
-\subsection{Směrová charakteristika}
-Druhým sledovaným parametrem realizovaných produktů byla směrová charakteristika, která byla v závislosti na dostupných technologiích měřena v anténní bezodrazné komoře pomocí automatizovaného měřícího systému NSI2000 pracující na principu uvedeném na schematu \ref{fig:DirectDia}. Kde 1 - Bezodrazná anténní komora, 2 - Rotační mechanismus (točna), CPU - Centrální procesní jednotka, VNA - Vektorový analyzátor, Room Controller - Řídící jednotka točny, R.A. - Známá vysílací anténa, A.U.T. - Měřená anténa, D - Vzdálenost antén.
+Z obrázku \ref{fig:Matching} je velmi výrazný rozdíl oproti simulacím, způsobený nedostatečnou vodivostí a silným dielektrickým charakterem materiálu.
 
-\begin{figure}[h]
+\subsection{Směrová charakteristika}
+Druhým sledovaným parametrem realizovaných produktů byla směrová charakteristika, která byla v závislosti na dostupných technologiích měřena v anténní bezodrazné komoře pomocí automatizovaného měřícího systému NSI2000 pracující na principu uvedeném na schématu \ref{fig:DirectDia}. Kde 1 - Bezodrazná anténní komora, 2 - Rotační mechanismus (točna), CPU - Centrální procesní jednotka, VNA - Vektorový analyzátor, Room Controller - Řídící jednotka točny, R.A. - Známá vysílací anténa, A.U.T. - Měřená anténa, D - Vzdálenost antén.
+
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/DirectDia}
 \caption{Zjednodušené blokové schéma měření směrové charakteristiky}
@@ -199,11 +201,11 @@ Skutečná realizace použité metody je však komplexnější, pro přiblížen
 Základní princip použité metody je založen na vysílání vlny známou anténou a její následné přijímání anténou testovanou za její postupné rotace kolem azimutu za stálého měření přijatého výkonu. Z naměřených hodnot (přijatého výkonu) poté pomocí známého Friisova vztahu \ref{eq:Friis} (kde $P_p$ - Přijatý výkon, $P_v$ - Vysílaný výkon, $G_v$ - Zisk vysílací antény, $G_p$ - Zisk měřené antény, $( \frac{\lambda}{4 \pi R} )^2$ - Ztráty volným prostorem) lze vypočítat zisk měřené antény v každém měřeném úhlu. Je však nutno zajistit, aby antény ležely v ose a v dostatečné vzdálenosti větší než vzdálená zóna, tedy $R \geq \frac{2\,D^2}{\lambda}$ (kde D je nevětší rozměr měřené antény a $\lambda$ vlnová délka), minimalizaci rušení z okolního prostředí a intenzitu odrazů v komoře.
 
 \begin{equation}
-P_p = P_v G_v G_p( \frac{\lambda}{4 \pi R} )^2
+P_p = P_v G_v G_p( \frac{\lambda}{4 \pi R} )^2 ; [W, W, -, -, m, m]
 \label{eq:Friis}
 \end{equation}
 
-\begin{figure}
+\begin{figure}[!htbp]
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Angle /\,$^\circ$},
@@ -215,17 +217,17 @@ P_p = P_v G_v G_p( \frac{\lambda}{4 \pi R} )^2
   	ymin=-120, ymax=-60,
     grid=both
 ]
-\addplot [no markers, thick, blue] table [col sep=tab, y=Ae-emi] {horn.dat};
-\addplot [no markers, thick, red] table [col sep=tab, y=Ae-graph] {horn.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=Ae-graph] {horn.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=Ae-emi] {horn.dat};
 \addplot [no markers, thick, green] table [col sep=tab, y=Ae-lens] {horn.dat};
-\legend{F-electric, PET+EMI 25, F-electric+PET lens};
+\legend{F-electric, PET+EMI 35, PET+EMI 35+PET lens};
 \end{axis}
 \end{tikzpicture}
-\label{fig:FarfieldsE}
-\caption{Naměřené vyzařovací charakteristiky realizovaných trychtýřů v E rovině}
+\label{fig:FarfieldsH}
+\caption{Naměřené vyzařovací charakteristiky realizovaných trychtýřů v H rovině}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[!htbp]
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Angle /\,$^\circ$},
@@ -237,24 +239,34 @@ P_p = P_v G_v G_p( \frac{\lambda}{4 \pi R} )^2
   	ymin=-120, ymax=-60,
     grid=both
 ]
-\addplot [no markers, thick, blue] table [col sep=tab, y=Ah-emi] {horn.dat};
-\addplot [no markers, thick, red] table [col sep=tab, y=Ah-graph] {horn.dat};
+\addplot [no markers, thick, blue] table [col sep=tab, y=Ah-graph] {horn.dat};
+\addplot [no markers, thick, red] table [col sep=tab, y=Ah-emi] {horn.dat};
 \addplot [no markers, thick, green] table [col sep=tab, y=Ah-lens] {horn.dat};
-\legend{F-electric, PET+EMI 25, F-electric+PET lens};
+\legend{F-electric, PET+EMI 35, PET+EMI 35+PET lens};
 \end{axis}
 \end{tikzpicture}
-\label{fig:FarfieldsH}
-\caption{Naměřené vyzařovací charakteristiky realizovaných trychtýřů v H rovině}
+\label{fig:FarfieldsE}
+\caption{Naměřené vyzařovací charakteristiky realizovaných trychtýřů v E rovině}
 \end{figure}
 
-\subsection{Extrakce parametrů}
+Z naměřených hodnot vyobrazených na obrázcích \ref{fig:FarfieldsE}, \ref{fig:Farfieldsh} je opět výrazný rozdíl oproti simulacím vlivem silného dielektrického ztrátového charakteru. Měření zisku nebylo tedy relevantní, jelikož přijatý výkon byl velmi malý i při osazení struktury čočkou, která se projevila velmi mírným zúžením hlavního laloku a potlačením zadních laloků. 
+
+\subsection{Extrakce dielektrických parametrů}
 Jak již bylo zmíněno, pro extrakci parametrů byla zvolena metoda transmisní/reflexní, viz blokové schéma \ref{fig:ExtractBlock}. Měření dat pro následnou spolehlivou extrakci je ale velmi obtížné realizovat se stoprocentní úspěšností prvního pokusu. Zejména z důvodu neznalosti parametrů materiálu (to je cílem celého snažení) a nutnosti splnit minimální 3\,dB útlum vložených vzorků do vlnovodu a zároveň respektovat omezení použité realizační technologie, fyzikální parametry materiálů a samozřejmě časovou náročnost.
 
-Pro prvnotní měření byly zvoleny vzorky délek 49 a 69\,mm na základě dostupných vlnovodů pro splnění veškerých nutných podmínek za účelem získání použitelných výsledků. Jelikož však útlum nejdelšího vzorku byl naměřen v okolí 1.5\,dB z čehož lze odhadnout minimální délku vzorku 138\,mm. 
+Pro prvotní měření byly zvoleny vzorky délek 49 a 69\,mm na základě dostupných vlnovodů pro splnění veškerých nutných podmínek za účelem získání použitelných výsledků. Jelikož však útlum nejdelšího vzorku byl naměřen v okolí 1.5\,dB z čehož lze odhadnout minimální délku vzorku 138\,mm. 
 
-Upravené vzorky bohužel nemohli být realizovány v minimálních odhadovaných délkách a bylo nutné zvolit na základě dostupných úseků vlnovodu, pro finální realizaci tedy 149 a 199\,mm. Na základě těchto vzorků již bylo možné realizovat extrakci dielektrických parametrů, jelikož útlum ktrátkého úseku vykazoval útlum $>$3.5\,dB.
+Upravené vzorky bohužel nemohli být realizovány v minimálních odhadovaných délkách a bylo nutné zvolit na základě dostupných úseků vlnovodu, pro finální realizaci tedy 149 a 199\,mm. Na základě těchto vzorků již bylo možné realizovat extrakci dielektrických parametrů, jelikož útlum krátkého úseku vykazoval útlum $>$3.5\,dB.
 
-\begin{figure}
+\begin{figure}[!htbp]
+\begin{center}
+\includegraphics[width=9.5cm]{pics/final/ExtractSetup}
+\caption{Sestavení měřícího systému pro získání dat potřebných pro extrakci}
+\label{fig:CSTscript}
+\end{center}
+\end{figure}
+
+\begin{figure}[!htbp]
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Frequency /\,GHz},
@@ -281,7 +293,7 @@ Upravené vzorky bohužel nemohli být realizovány v minimálních odhadovanýc
 Vlastní realizace početního algoritmu poté probíhá prostým vložením dat do automatizovaného makra v CST MW studio. Aby však poskytnuté výsledky odpovídali realitě, je nezbytně důležitá korektní konfigurace vstupních parametrů \ref{fig:CSTscript}.
 
 
-\begin{figure}[h!]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/CSTscript}
 \caption{Náhled vhodně nakonfigurovaného uživatelského rozhraní makra v CST MW studio}
@@ -290,7 +302,7 @@ Vlastní realizace početního algoritmu poté probíhá prostým vložením dat
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[!htbp]
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Frequency /\,GHz},
@@ -312,7 +324,7 @@ Vlastní realizace početního algoritmu poté probíhá prostým vložením dat
 \end{figure}
 
 
-\begin{figure}
+\begin{figure}[!htbp]
 \begin{tikzpicture}
 \begin{axis}[
     xlabel={Attenuation /\,dB},

@@ -12,10 +12,10 @@ Před vlastním návrhem a realizací je nezbytně nutné být seznámen alespo�
 Technologií existuje několik a s postupným rozšiřováním možností aplikace jich stále přibývá. Pro řešení této práce byla vybrána technologie FDM vzhledem k jejímu masovému rozšíření, dostupnosti a nízkých nákladů. 
 
 \subsection{Princip technologie FDM}
-Fused deposition modeling, zkráceně FDM, případně FFF (Fused Filament Fabrication) je technologie 3D tisku využívající možnost opakovatelného přechodu mezi skupenstvími působením energie ve formě tepla termoplastických polymerních materiálů. Základní materiál ve formě filamentu (drátu) definovaného průměru, zpravidla 1.75\,mm, nebo 2.85\,mm, je vtlačován do předehřáte trysky silou $F$. Pokud teplota horké zóny trysky převyšuje teplotu skelného přechodu vtlačovaného materiálu dojde k dramatickému oslabení mezimolekulárních sil a vzniku viskózní kapaliny. Jelikož je průměr trysky velmi blízký průměru vtlačovaného filamentu, s vyjímkou jejího hrdla které je násobně menší, zpravidla 0.4\,mm, jediná možnost jak uvolnit vnitřní tlak je vytlačení kapaliny hrdlem. Jakmile teplota vytlačené kapaliny klesne pod teplotu skelného přechodu dojde k obnovení mezimolekulárních sil a materiál je opět pevnou látkou. Tento jev je obecně znám pod názvem extruze.
+Fused deposition modeling, zkráceně FDM, případně FFF (Fused Filament Fabrication) je technologie 3D tisku využívající možnost opakovatelného přechodu mezi skupenstvími působením energie ve formě tepla termoplastických polymerních materiálů. Základní materiál ve formě filamentu (drátu) definovaného průměru, zpravidla 1.75\,mm, nebo 2.85\,mm, je vtlačován do předehřáte trysky silou $F$. Pokud teplota horké zóny trysky převyšuje teplotu skelného přechodu vtlačovaného materiálu dojde k dramatickému oslabení mezimolekulárních sil a vzniku viskózní kapaliny. Jelikož je průměr trysky velmi blízký průměru vtlačovaného filamentu, s výjímkou jejího hrdla které je násobně menší, zpravidla 0.4\,mm, jediná možnost jak uvolnit vnitřní tlak je vytlačení kapaliny hrdlem. Jakmile teplota vytlačené kapaliny klesne pod teplotu skelného přechodu dojde k obnovení mezimolekulárních sil a materiál je opět pevnou látkou. Tento jev je obecně znám pod názvem extruze.
 Toto nám však nestačí pro vytvoření trojrozměrného objektu dle zadání. Je tedy třeba extrudér osadit na zařízení zajišťující pohyb v trojrozměrném prostoru.
 Proces tisku pak probíhá pohybem extrudéru po předem definovaných trasách, zpravidla vždy v jedné vrstvě, a vytlačováním materiálu dle potřeby. Celý proces se poté opakuje dokud není dokončen zadaný objekt.
-\begin{figure}[h!]
+\begin{figure}[!htbp!]
 \begin{center}
 \includegraphics[width=7.5cm]{pics/fdm}
 \caption{Princip technologie FDM. 1 - Tisková podložka, 2 - Již hotové vrstvy výsledného objektu, 3 - Horká zóna trysky, 4 - Tryska, 5 - Filament, F - Vtlačovací síla}
@@ -24,26 +24,26 @@ Proces tisku pak probíhá pohybem extrudéru po předem definovaných trasách,
 
 
 \subsection{Vlastnosti technologie}
-3D tisk, podobně jako jiné technologie má specifické vlastnosti, které ovlivňují charakter výsledného produktu. Ovlivněných vlastnostností je velmi mnoho, pro naši aplikaci se zaměříme na dielektrické (chceme vědět jaké bude mít výsledný produkt dielektrické vlastnosti, abychom ho byly schopni popsat, navrhovat a simulovat) a mechanické (produkt musí být možno pevně a stabilě ukotvit na pozici, a musí do něj být možno navázat elektromagnetickou vlnu známým způsobem). Je však nutno brát v potaz, že má i celou řadu vlastností, kterých lze využít pro vytvoření složitých struktur, které by nebylo možné jinými technologiemi jednoduše realizovat, například vnitřní uzavřené struktury. Některé z nich jsou zatím pro dostatečně přesné aproximace dosažitelné v reálném časovém horizontu zcela náhodné, jiné zase přímo ovlivňují námi velmi žádané parametry a můžeme je takto řídit.
+3D tisk, podobně jako jiné technologie má specifické vlastnosti, které ovlivňují charakter výsledného produktu. Ovlivněných vlastností je velmi mnoho, pro naši aplikaci se zaměříme na dielektrické (chceme vědět jaké bude mít výsledný produkt dielektrické vlastnosti, abychom ho byly schopni popsat, navrhovat a simulovat) a mechanické (produkt musí být možno pevně a stabilně ukotvit na pozici, a musí do něj být možno navázat elektromagnetickou vlnu známým způsobem). Je však nutno brát v potaz, že má i celou řadu vlastností, kterých lze využít pro vytvoření složitých struktur, které by nebylo možné jinými technologiemi jednoduše realizovat, například vnitřní uzavřené struktury. Některé z nich jsou zatím pro dostatečně přesné aproximace dosažitelné v reálném časovém horizontu zcela náhodné, jiné zase přímo ovlivňují námi velmi žádané parametry a můžeme je takto řídit.
 
 \subsubsection{Vrstvy}
-Pokud budeme uvažovat ideální podmínky (absolutně čisté prostředí bez kontaminace nechtěnými látkami, ideální filament, rovnoměrnou kontrolovanou distribuci tepla, atd...) stále je objekt tvořem z vrstev. Jelikož vždy vrtva, na které se aktuálně nanáší, je dokonce pod teplotou skelného přechodu, pro odstranění deformace vlivem sil jako gravitace, či tepelné roztažnosti, nedojde k dokonalému spojení polymerních řetězců mezi vrtvami. Při laminaci vrstev může také dojít ke kontaminaci produktu, jako například prachovými částicemi či vzduchovými kapsami. Toto se však dá zanedbat jelikož lze snadno stabilizovat okolní prostředí a minimalizovat vliv. 
-Hlavní ovlivněné vlastnosti, pro naši aplikaci podstatné, jsou mechanické. Vždy je v ose vrstev rozložení mezne plasticity neuniformní, dochází tedy k plastické deformaci významně v těchto oblastech, což někdy může být problém z důvodu nutnosti splnění možnosti upevnění a realizovatelnosti produktu.
-Z dielektrického hlediska tedy nebude ani relativní permitivita uniformně rozložená v jedné ose, vznikne tedy periodická stuktura. Tento vliv by bylo možné omezit buďto zvýšením diskretizačního kroku, tedy omezením počtu rozhraní, což může v jistých případech ovlivňovat vlastnosti celé struktury vzhledem růstu kvantizačního šumu, nebo naopak snížením kroku kdy již bude úroveň šumu blízká nule, což se bohužel negativně projeví na době tisku, to však v některých případech není problém. Výzkum popisu tohoto chování je však předmětem dalším.
+Pokud budeme uvažovat ideální podmínky (absolutně čisté prostředí bez kontaminace nechtěnými látkami, ideální filament, rovnoměrnou kontrolovanou distribuci tepla, atd...) stále je objekt tvořen z vrstev. Jelikož vždy vrstva, na které se aktuálně nanáší, je dokonce pod teplotou skelného přechodu, pro odstranění deformace vlivem sil jako gravitace, či tepelné roztažnosti, nedojde k dokonalému spojení polymerních řetězců mezi vrstvami. Při laminaci vrstev může také dojít ke kontaminaci produktu, jako například prachovými částicemi či vzduchovými kapsami. Toto se však dá zanedbat jelikož lze snadno stabilizovat okolní prostředí a minimalizovat vliv. 
+Hlavní ovlivněné vlastnosti, pro naši aplikaci podstatné, jsou mechanické. Vždy je v ose vrstev rozložení meze plasticity neuniformní, dochází tedy k plastické deformaci významně v těchto oblastech, což někdy může být problém z důvodu nutnosti splnění možnosti upevnění a realizovatelnosti produktu.
+Z dielektrického hlediska tedy nebude ani relativní permitivita uniformně rozložená v jedné ose, vznikne tedy periodická struktura. Tento vliv by bylo možné omezit buďto zvýšením diskretizačního kroku, tedy omezením počtu rozhraní, což může v jistých případech ovlivňovat vlastnosti celé struktury vzhledem růstu kvantizačního šumu, nebo naopak snížením kroku kdy již bude úroveň šumu blízká nule, což se bohužel negativně projeví na době tisku, to však v některých případech není problém. Výzkum popisu tohoto chování je však předmětem dalším.
 
 \subsubsection{Vnitřní struktury}
 Vlivem principu vrstvení je možno vytvářet vnitřní struktury definovaných tvarů, dokonce i selektivně, a takto velmi silně ovlivňovat pro nás důležité parametry.
-Mechanické vlastnosti tímto lze slektivně měnit, například zpevněním montážních ovorů v technologickém okolí, což v našem případě není první v pořadí.
-Dielektrické vlastnosti jsou tímto však velmi ovlivněny. Technologií je totiž možno vytvářet prakticky jakékoliv struktury uvnitř produktu ve zvolených místech, tedy například vytisknout Luneburgovu či Maxwell fish-eye čočku. Je však ale nutno provést výzkum na toto téma dostatečné podrobrý výzkum, jedná se totiž o skokové změny vlastností. Tyto změny poté vytváří rozhraní, kde dochází odrazům, které zatím modelovat a popsat je velmi komplexní úlohou.
+Mechanické vlastnosti tímto lze selektivně měnit, například zpevněním montážních otvorů v technologickém okolí, což v našem případě není první v pořadí.
+Dielektrické vlastnosti jsou tímto však velmi ovlivněny. Technologií je totiž možno vytvářet prakticky jakékoliv struktury uvnitř produktu ve zvolených místech, tedy například vytisknout Luneburgovu či Maxwell fish-eye čočku. Je však ale nutno provést výzkum na toto téma dostatečné podrobný výzkum, jedná se totiž o skokové změny vlastností. Tyto změny poté vytváří rozhraní, kde dochází odrazům, které zatím modelovat a popsat je velmi komplexní úlohou.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=8.5cm]{pics/fillcompare}
 \caption{Porovnání různého motivu vrstvy, a) 100\,\% vyplň typem rectilinear, b) 20\,\% vyplnň typem cubic}
 \end{center}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=8.5cm]{pics/6layer}
 \caption{Náhled vrstev 1-6 struktury s kombinovanou výplní typu rectilinear (první dvě vrstvy) a cubic o rozdílné procentuální výplni}
@@ -55,7 +55,7 @@ Termopolymerních materiálů které by se daly využít je celá řada, teoreti
 Mezi nejrozšířenější patří PLA, ABS a PET, tyto materiály však lze uplatnit zejména v čočkách, či dielektrických rezonátorech, jelikož vykazují velmi malou vodivost. Objevují se ale stále nové směsy materiálů jako například PLA s výraznou příměsí grafénových šupin, či měděného prachu které v ideálním případě disponují velmi vysokou vodivostí.
 
 \subsubsection{"Vodivé" materiály}
-Jelikož mezi nejrozšířenější materiály patří PLA, které vykazuje výborné zpracovatelské vlastnosti je většina těchno směsí právě na tomto nosiči.
+Jelikož mezi nejrozšířenější materiály patří PLA, které vykazuje výborné zpracovatelské vlastnosti je většina těchto směsí právě na tomto nosiči.
 Jako příměs pro vodivé materiály je možno použít teoreticky jakékoliv fragmenty vodivé látky jako třeba měď, stále populárnější je ale grafén, z důvodu jeho vysoké vodivosti způsobené $\pi$ elektrony. Při plnění nosného polymeru je však nutno brát v potaz že při zvyšujícím se podílu plniva se vlastnosti výsledné směsi velmi mění.
 Jelikož je pro nás nyní nejvýznamnější elektrická vodivost, je tedy logický cíl maximalizace právě tohoto kritéria. Bohužel se ale stále bude jednat o směs vysoce vodivého materiálu ve velmi nevodivém polymeru, což má dramatický dopad na výsledek. V první řadě ikdyž budeme uvažovat dokonale uniformní rozložení a identické frakce příměsi ve filamentu, vlivem průchodu extrudérem nelze předpokládat, že výsledek bude stejný. Dochází totiž k opětovnému promísení a dokonalý popis celého systému zatím není znám. V druhé řadě je třeba stále brát ohled na zpracovatelnost materiálu a volit správné poměry příměsí, z pravidla 40 - 80\,\%\cite{Dolecek}. Z výše uvedených faktů je bohužel patrné, že výsledný produkt má nezanedbatelné dielektrické vlastnosti.
 Ačkoliv se může zdát že tyto materiály nejsou pro naši aplikaci zatím použitelné, stále existuje možnost následného pokovení produktu, kde tyto vlastnosti výrazně zjednoduší proces.
@@ -65,9 +65,9 @@ Trychtýřová anténa patří mezi základní anténní struktury využívané 
 Tento typ antény byl zvolen zejména kvůli své jednoduchosti a požadavkům na technologii výroby.
 
 \subsection{Základní princip}
-Trychtýřová antená není nic jiného, než postupně se rozšiřující ústí vlnovodu v daných směrech. Postupné otevření trychtýře lze považovat za impedanční transformátor zajišťující, v ideálním případě bezodrazné, vyvázání vlny do volného prostoru v definovaném pásmu \ref{fig:hornPrinciple}.
+Trychtýřová anténa není nic jiného, než postupně se rozšiřující ústí vlnovodu v daných směrech. Postupné otevření trychtýře lze považovat za impedanční transformátor zajišťující, v ideálním případě bezodrazné, vyvázání vlny do volného prostoru v definovaném pásmu \ref{fig:hornPrinciple}.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/HornPrinciple}
 \caption{Princip trychtýřové antény}
@@ -80,10 +80,10 @@ Na základě roviny, ve kterém dochází k otevření vlnovodu je lze rozdělit
 \item E-rovinné (v rovině E)
 \item H-rovinné (v rovině H)
 \item Pyramidální (v obou rovinách)
-\item Kónické ( speciální případ rozšiřujícího-se kruhového vnovodu)
+\item Kónické ( speciální případ rozšiřujícího-se kruhového vlnovodu)
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/HornTypes}
 \caption{Typické provedení trychtýřových antén \cite{ConstantineTheory}}
@@ -93,9 +93,9 @@ Na základě roviny, ve kterém dochází k otevření vlnovodu je lze rozdělit
 
 Každá kategorie má své specifické vlastnosti, například z hlediska směrových charakteristik. Pokud dojde k otevření pouze v rovině H, dojde k významnému potlačení postranních laloků a zároveň snížení šířky svazku v porovnání se směrem otevření pouze v rovině E \ref{fig:hornComp}.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
-\includegraphics[width=9.5cm]{pics/HornTypes}
+\includegraphics[width=9.5cm]{pics/hornComp}
 \caption{Porovnání směrových charakteristik trychtýřové antény s otevřením v rovině a) E , b) H \cite{ConstantineTheory}}
 \label{fig:hornComp}
 \end{center}
@@ -106,7 +106,7 @@ Jedná se o nejrozšířenější typ trychtýřové antény, u které, jak již
 
 Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}.
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/horn}
 \caption{Pyramidální trychtýřová anténa \cite{ConstantineTheory}}
@@ -114,7 +114,7 @@ Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}
 \end{center}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=15cm]{pics/hornEH}
 \caption{Pyramidální trychtýřová anténa v řezu a)E-roviny, b)H-roviny \cite{ConstantineTheory}}
@@ -132,29 +132,29 @@ Základní parametry jsou vyobrazeny na obrázku \ref{fig:horn},\ref{fig:hornEH}
 \item $\psi$ - Úhel otevření
 \end{itemize}
 
-\subsection{Charakterizace struktury}
+\subsection{Elektrické parametry}
 
 \subsubsection{Vstupní impedance}
-Důležitým parametrem každé antény je jiejí vstupní impedance, která nám určuje, jakou charakteristickou impedanci by mělo mít napájecí vedení, případně jaký je nutno navrhnout přizpůsobovací obvod. Hlavním cílem při následné aplikaci struktury je minimalizovat ztráty nepřizpůsobením a tím maximalizovat vyzářený výkon.
+Důležitým parametrem každé antény je její vstupní impedance, která nám určuje, jakou charakteristickou impedanci by mělo mít napájecí vedení, případně jaký je nutno navrhnout přizpůsobovací obvod. Hlavním cílem při následné aplikaci struktury je minimalizovat ztráty nepřizpůsobením a tím maximalizovat vyzářený výkon.
 
 \subsubsection{Směrovost a zisk}
-Směrovost charakterizuje strukturu z hlediska poměru intenzit vyzářeného výkonu struktury do určitého směru, ku celkovému vyzářenému výkonu do celého prostoru. Jde tedy o schopnost antény "směrovat" výkon do určitého směru. Toto však z principu reciprocity paltí i opačně, tedy pro přijatý výkon. Na základě tohoto lze definovat maximální směrovost antény \ref{eq:hornD}.
+Směrovost charakterizuje strukturu z hlediska poměru intenzit vyzářeného výkonu struktury do určitého směru, ku celkovému vyzářenému výkonu do celého prostoru. Jde tedy o schopnost antény "směrovat" výkon do určitého směru. Toto však z principu reciprocity platí i opačně, tedy pro přijatý výkon. Na základě tohoto lze definovat maximální směrovost antény \ref{eq:hornD}.
 
 \begin{equation}
-D_p/dB = 10*[1.008+\log_{10}({\frac{a_1 * b_1}{\lambda^2}})]
+D_p = 10 [1.008+\log_{10}({\frac{a_1  b_1}{\lambda^2}})] ; [dB, m, m, m]
 \label{eq:hornD}
 \end{equation}
 
 \renewcommand{\figurename}{Obrázek}
 Zisk antény \ref{eq:hornG} je však pro aplikace zajímavějším parametrem, jelikož zahrnuje i ztráty vyzařovací účinností $\eta_r$.
 \begin{equation}
-G_{dB} = D_{dB} - \eta_{r(dB)}
+G = D - \eta_{r} ; [dB, dB , dB]
 \label{eq:hornG}
 \end{equation}
 
 \subsubsection{Fázová chyba}
-Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k transformaci vlny rovinné na kulovou. Z této skutečnosti plyne, že na rozhraní ústí trychtýře bude existovat oblast, kde se střed vlny bude nacházet právě na rozhraní, ale její okraje stále uvnitř. Tento rozdíl se nazývá fázová chyba a vede k deformaci směrové charakteristiky a snížení směrovosti. Pro minimalizaci této chyby je vhodné, aby úhel otevření trychtýře byl co nejmenší, nicméně je však ale nutno brát v potaz, že tímto narůstá jeho odélka a zároveň i náročnost realizace.
-\begin{figure}[h]
+Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k transformaci vlny rovinné na kulovou. Z této skutečnosti plyne, že na rozhraní ústí trychtýře bude existovat oblast, kde se střed vlny bude nacházet právě na rozhraní, ale její okraje stále uvnitř. Tento rozdíl se nazývá fázová chyba a vede k deformaci směrové charakteristiky a snížení směrovosti, viz obrázek \ref{fig:HornLenDep}. Pro minimalizaci této chyby je vhodné, aby úhel otevření trychtýře byl co nejmenší, nicméně je však ale nutno brát v potaz, že tímto narůstá jeho délka a zároveň i náročnost realizace.
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=6.5cm]{pics/hornErr}
 \caption{Znázornění fázové chyby $Y$}
@@ -162,7 +162,7 @@ Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k t
 \end{center}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[!htbp]
 \begin{tikzpicture}[scale=1.4]
 \begin{axis}[
     xlabel={Angle /},
@@ -180,7 +180,7 @@ Jelikož při vyvazování vlny z vlnovodu do volného prostředí dochází k t
 \legend{228\,mm,180\,mm,140\,mm};
 \end{axis}
 \end{tikzpicture}
-\caption{Řezy směrových charakteristiky v E rovině pro různé úhly otevření pyramidálního trychtýře}
+\caption{Řezy směrových charakteristiky v E rovině pro různé délky pyramidálního trychtýře při zachování rozměrů apertury (CST MW studio simulace)}
 \label{fig:HornLenDep}
 \end{figure}
 
@@ -196,7 +196,7 @@ Existuje tedy celá řada různých realizací čoček, v anténní doméně je 
 \end{itemize}
 
 \subsection{Základní princip}
-Hlavním úkolem čočky je kolimovat paprsek, neboli šnížit rozbíhavost, neboli transformovat kulovou vlnu na rovinnou. Jak můžeme vidět na obrázku \ref{fig:hornLens}, kde:
+Hlavním úkolem čočky je kolimovat paprsek, neboli snížit rozbíhavost, neboli transformovat kulovou vlnu na rovinnou. Jak můžeme vidět na obrázku \ref{fig:hornLens}, kde:
 \begin{itemize}
 \item $1$ - Trychtýřová anténa
 \item $2$ - Vystupující kulová vlna z trychtýře
@@ -205,7 +205,7 @@ Hlavním úkolem čočky je kolimovat paprsek, neboli šnížit rozbíhavost, ne
 \item $X$ - Parametr kulovitosti vstupní vlny
 \item $X'$ - Parametr kulovitosti výstupní vlny
 \end{itemize}
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/lens}
 \caption{Princip anténní čočky}
@@ -222,7 +222,7 @@ Opět analogií k optickému pohledu na problematiku, kde je hlavním charakteri
 Dalším nutným parametrem pro splnění kolimace vlny je ohnisková vzdálenost. Tento parametr určuje, v jaké vzdálenosti musí být zdroj kulové vlny, aby došlo k úplné korekci fázové chyby, tedy kolimace.
 
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
 \begin{center}
 \includegraphics[width=9.5cm]{pics/lenstypes}
 \caption{Typy anténních čoček. 1 - Zpomalující, 2 - Zrychlující}
@@ -231,7 +231,7 @@ Dalším nutným parametrem pro splnění kolimace vlny je ohnisková vzdálenos
 \end{figure}
 
 \section{Extrakce dielektrických parametrů}
-Znalost dielektrických parametrů je klíčová pro návrh vlastních strukur, zejména anténních čoček.
+Znalost dielektrických parametrů je klíčová pro návrh vlastních struktur, zejména anténních čoček.
 Pro většinu materiálů jsou tyto parametry již známé, nicméně pokud se rozhodneme strukturu realizovat technologií 3D tisků, vstupuje do tohoto mnoho dalších proměnných které mohou výrazně ovlivnit výsledné parametry produktu, ať už v prospěch, či naopak.
 
 Mezi základní metody extrakce patří:
